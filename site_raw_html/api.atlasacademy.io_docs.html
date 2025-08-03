@@ -1,0 +1,31 @@
+<!-- Downloaded from: https://api.atlasacademy.io/docs/ -->
+<!-- Download time: 2025-08-03 15:27:17 -->
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FGO game data API</title>
+    <meta name="description" content="Provide raw and nicely bundled FGO game data.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui.css">
+    <div id="swagger-ui">Loading ...</div>
+    <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist/swagger-ui-bundle.js"></script>
+    <script>
+    async function main() {
+        let spec = await fetch("/openapi.json").then((resp) => resp.json());
+        SwaggerUIBundle({
+            spec: spec,
+            dom_id: "#swagger-ui",
+            presets: [
+                SwaggerUIBundle.presets.apis,
+                SwaggerUIBundle.SwaggerUIStandalonePreset,
+            ],
+            deepLinking: true,
+            defaultModelsExpandDepth: 0,
+            showExtensions: true,
+            showCommonExtensions: true,
+        })
+    }
+    main();
+    </script>
