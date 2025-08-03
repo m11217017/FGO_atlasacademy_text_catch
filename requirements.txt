@@ -1,1 +1,11 @@
+# FGO Atlas Academy 劇情文本採集器依賴套件
+
+# HTTP 請求處理
 requests>=2.31.0
+
+# Jupyter Notebook 支援
+jupyter>=1.0.0
+notebook>=6.0.0
+
+# 資料處理
+pandas>=1.3.0  # 選用：用於數據分析

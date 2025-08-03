@@ -1,0 +1,4868 @@
+{
+  "id": 105,
+  "coordinates": [
+    [
+      45.25218,
+      -106.868
+    ],
+    []
+  ],
+  "age": "AD:1783",
+  "name": "第五特異點",
+  "originalName": "第五特異點",
+  "longName": "第五特異點\n北美神話大戰 合眾為一",
+  "originalLongName": "第五特異點\n北美神話大戰 合眾為一",
+  "flags": [
+    "withMap",
+    "mainScenario",
+    "isWarIconLeft"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap105.png",
+  "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_10.png",
+  "priority": 105,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 9,
+    "name": "北美神話大戰：\n合眾為一",
+    "originalName": "北美神話大戰：\n合眾為一",
+    "fileName": "BGM_MAP_3",
+    "notReleased": false,
+    "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_3/BGM_MAP_3.mp3"
+  },
+  "scriptId": "0100050010",
+  "script": "https://static.atlasacademy.io/TW/Script/01/0100050010.txt",
+  "startType": "script",
+  "targetId": 100050010,
+  "eventId": 0,
+  "eventName": "",
+  "lastQuestId": 1000522,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 105,
+      "type": "parentWar",
+      "priority": 1,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 105,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    }
+  ],
+  "maps": [
+    {
+      "id": 105,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000105/img_questmap_000105.png",
+      "mapImageW": 1920,
+      "mapImageH": 1240,
+      "mapGimmicks": [
+        {
+          "id": 10501,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010501.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "useItemEternity",
+          "dispTargetId": 1000501,
+          "dispTargetValue": 0,
+          "dispCondType2": "questClear",
+          "dispTargetId2": 0,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10502,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010502.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000501,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000505,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10503,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010503.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000505,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000507,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10504,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010504.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000507,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000507,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10505,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010505.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000507,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000508,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10506,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010506.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000508,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000511,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10507,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010507.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000511,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000513,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10508,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010508.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000513,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000514,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10509,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010509.png",
+          "x": 1032,
+          "y": 644,
+          "depthOffset": -10,
+          "scale": 4000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000514,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000522,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10521,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010521.png",
+          "x": 794,
+          "y": 376,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000501,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000502,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10522,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010522.png",
+          "x": 1548,
+          "y": 724,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000510,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000512,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10523,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010523.png",
+          "x": 1279,
+          "y": 483,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000512,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000513,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10524,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010524.png",
+          "x": 964,
+          "y": 619,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000516,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000517,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10525,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010525.png",
+          "x": 944,
+          "y": 729,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000516,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000517,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10526,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010526.png",
+          "x": 1522,
+          "y": 619,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000516,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000517,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10527,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010527.png",
+          "x": 1545,
+          "y": 708,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000516,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000517,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10528,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010528.png",
+          "x": 1218,
+          "y": 619,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000517,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000522,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10529,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010529.png",
+          "x": 1261,
+          "y": 809,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000517,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000519,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10530,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010530.png",
+          "x": 1412,
+          "y": 619,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000517,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000522,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10531,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010531.png",
+          "x": 1447,
+          "y": 779,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000517,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000519,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10532,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010532.png",
+          "x": 1454,
+          "y": 759,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000519,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000520,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10533,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010533.png",
+          "x": 1555,
+          "y": 670,
+          "depthOffset": 10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000520,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000522,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10541,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010541.png",
+          "x": 1314,
+          "y": 587,
+          "depthOffset": 20,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000521,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000522,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10551,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010551.png",
+          "x": 905,
+          "y": 291,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000501,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000501,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10552,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010552.png",
+          "x": 906,
+          "y": 302,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000505,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000505,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10553,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010553.png",
+          "x": 900,
+          "y": 825,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000507,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000507,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10554,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010554.png",
+          "x": 1054,
+          "y": 851,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000507,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000507,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10555,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010555.png",
+          "x": 901,
+          "y": 837,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000507,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000507,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10556,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010556.png",
+          "x": 1191,
+          "y": 903,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000508,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000508,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10557,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010557.png",
+          "x": 1042,
+          "y": 895,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000508,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000508,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10558,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010558.png",
+          "x": 335,
+          "y": 718,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000511,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000511,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10559,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010559.png",
+          "x": 1168,
+          "y": 569,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000511,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000511,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10560,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010560.png",
+          "x": 1117,
+          "y": 428,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000513,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000513,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10561,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010561.png",
+          "x": 1090,
+          "y": 496,
+          "depthOffset": -5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000514,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000514,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10571,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/gimmick_010571.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": -15,
+          "scale": 1000,
+          "dispCondType": "useItemEternity",
+          "dispTargetId": 1000522,
+          "dispTargetValue": 0,
+          "dispCondType2": "questClear",
+          "dispTargetId2": 0,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        }
+      ],
+      "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_10.png",
+      "bgm": {
+        "id": 9,
+        "name": "北美神話大戰：\n合眾為一",
+        "originalName": "北美神話大戰：\n合眾為一",
+        "fileName": "BGM_MAP_3",
+        "notReleased": false,
+        "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_3/BGM_MAP_3.mp3"
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 10501,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "布拉克山",
+      "originalName": "布拉克山",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010501.png",
+      "x": 834.0,
+      "y": 390.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -18,
+      "questOfsX": 35,
+      "questOfsY": -82,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000501,
+          "name": "立足大地，眺望星空",
+          "originalName": "立足大地，眺望星空",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "52",
+          "spotId": 10501,
+          "spotName": "布拉克山",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310500,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310500,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310500,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310500,
+              "type": "item",
+              "objectId": 6503,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100050120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050120.txt"
+                },
+                {
+                  "scriptId": "0100050121",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050121.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899931,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91401301,
+          "name": "女王的教育",
+          "originalName": "女王的教育",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10501,
+          "spotName": "布拉克山",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/9.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000522,
+              "value": 0,
+              "closedMessage": "第五特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 401300,
+              "value": 2,
+              "closedMessage": "第五特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 401300,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 401300,
+              "value": 2,
+              "closedMessage": "第五特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9140130110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9140130110.txt"
+                },
+                {
+                  "scriptId": "9140130111",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9140130111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 659869,
+          "noticeAt": 1509033600,
+          "openedAt": 1509033600,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000501,
+          "name": "聖山",
+          "originalName": "聖山",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "52",
+          "spotId": 10501,
+          "spotName": "布拉克山",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000501,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499961,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10502,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "里弗頓",
+      "originalName": "里弗頓",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010502.png",
+      "x": 673.0,
+      "y": 433.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -4,
+      "questOfsX": 33,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000502,
+          "name": "克里米亞的天使",
+          "originalName": "克里米亞的天使",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "52",
+          "spotId": 10502,
+          "spotName": "里弗頓",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310501,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310501,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310501,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310501,
+              "type": "item",
+              "objectId": 6503,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000501,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100050220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100050230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050230.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100050240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050240.txt"
+                },
+                {
+                  "scriptId": "0100050241",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050241.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899930,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000503,
+          "name": "星之碎片",
+          "originalName": "星之碎片",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "52",
+          "spotId": 10502,
+          "spotName": "里弗頓",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310502,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310502,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310502,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310502,
+              "type": "item",
+              "objectId": 6510,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000502,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100050321",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050321.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899929,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000502,
+          "name": "巨大河床",
+          "originalName": "巨大河床",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "52",
+          "spotId": 10502,
+          "spotName": "里弗頓",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000503,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499960,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10503,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "丹佛",
+      "originalName": "丹佛",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010503.png",
+      "x": 793.0,
+      "y": 580.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 3,
+      "questOfsX": 37,
+      "questOfsY": -78,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000504,
+          "name": "總統之王",
+          "originalName": "總統之王",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "52",
+          "spotId": 10503,
+          "spotName": "丹佛",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310503,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310503,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310503,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310503,
+              "type": "item",
+              "objectId": 6510,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000503,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050410.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100050420",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050420.txt"
+                },
+                {
+                  "scriptId": "0100050421",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050421.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899928,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000505,
+          "name": "逃獄女金剛(Cool Hand Florence)",
+          "originalName": "逃獄女金剛(Cool Hand Florence)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "52",
+          "spotId": 10503,
+          "spotName": "丹佛",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310504,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310504,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310504,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310504,
+              "type": "item",
+              "objectId": 6510,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000504,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050510.txt"
+                },
+                {
+                  "scriptId": "0100050511",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050511.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100050520",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050520.txt"
+                },
+                {
+                  "scriptId": "0100050521",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050521.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899927,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000515,
+          "name": "高堡奇王(The King in the High Castle)",
+          "originalName": "高堡奇王(The King in the High Castle)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "56",
+          "spotId": 10503,
+          "spotName": "丹佛",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 15,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310514,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310514,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310514,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310514,
+              "type": "item",
+              "objectId": 6519,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000514,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051510.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051520",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051520.txt"
+                },
+                {
+                  "scriptId": "0100051521",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051521.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100051530",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051530.txt"
+                },
+                {
+                  "scriptId": "0100051531",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051531.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899917,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000516,
+          "name": "埃爾隆德會議(The Council of Elrond)",
+          "originalName": "埃爾隆德會議(The Council of Elrond)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "56",
+          "spotId": 10503,
+          "spotName": "丹佛",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 16,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310515,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310515,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310515,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310515,
+              "type": "item",
+              "objectId": 6519,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000515,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051610.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051620",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051620.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100051630",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051630.txt"
+                },
+                {
+                  "scriptId": "0100051631",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051631.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899916,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000503,
+          "name": "里高之城",
+          "originalName": "里高之城",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "52",
+          "spotId": 10503,
+          "spotName": "丹佛",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000505,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499959,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10504,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "德明",
+      "originalName": "德明",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010504.png",
+      "x": 701.0,
+      "y": 848.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 36,
+      "questOfsY": -66,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000506,
+          "name": "羅摩上戰場(Rama Got His Gun)",
+          "originalName": "羅摩上戰場(Rama Got His Gun)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "54",
+          "spotId": 10504,
+          "spotName": "德明",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310505,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310505,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310505,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310505,
+              "type": "item",
+              "objectId": 6512,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000505,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050610.txt"
+                },
+                {
+                  "scriptId": "0100050611",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050611.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899926,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000504,
+          "name": "新芝加哥",
+          "originalName": "新芝加哥",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "54",
+          "spotId": 10504,
+          "spotName": "德明",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000506,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499958,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10505,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "拉伯克",
+      "originalName": "拉伯克",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010505.png",
+      "x": 900.0,
+      "y": 832.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 36,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000507,
+          "name": "龍威虎將(Young Guns)",
+          "originalName": "龍威虎將(Young Guns)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "54",
+          "spotId": 10505,
+          "spotName": "拉伯克",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310506,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310506,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310506,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310506,
+              "type": "item",
+              "objectId": 6521,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000506,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050710.txt"
+                },
+                {
+                  "scriptId": "0100050711",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050711.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100050720",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050720.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100050730",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050730.txt"
+                },
+                {
+                  "scriptId": "0100050731",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050731.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899925,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91200902,
+          "name": "某一支愛之曲",
+          "originalName": "某一支愛之曲",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10505,
+          "spotName": "拉伯克",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000522,
+              "value": 0,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91200901,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 200900,
+              "value": 3,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 200900,
+              "value": 5,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120090210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120090210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9120090220",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120090220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9120090230",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120090230.txt"
+                },
+                {
+                  "scriptId": "9120090231",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120090231.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679908,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91201001,
+          "name": "荒野七騎",
+          "originalName": "荒野七騎",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10505,
+          "spotName": "拉伯克",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000522,
+              "value": 0,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 201000,
+              "value": 3,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 201000,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 201000,
+              "value": 4,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120100110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9120100120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100120.txt"
+                },
+                {
+                  "scriptId": "9120100121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100121.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9120100130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "9120100140",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100140.txt"
+                },
+                {
+                  "scriptId": "9120100141",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100141.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "9120100150",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100150.txt"
+                }
+              ]
+            },
+            {
+              "phase": 6,
+              "scripts": [
+                {
+                  "scriptId": "9120100160",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100160.txt"
+                },
+                {
+                  "scriptId": "9120100161",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120100161.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679899,
+          "noticeAt": 1551196800,
+          "openedAt": 1551196800,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000505,
+          "name": "德州騎警",
+          "originalName": "德州騎警",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "60",
+          "spotId": 10505,
+          "spotName": "拉伯克",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000507,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499957,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10506,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "達拉斯",
+      "originalName": "達拉斯",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010506.png",
+      "x": 1043.0,
+      "y": 861.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 3,
+      "questOfsX": 37,
+      "questOfsY": -76,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000508,
+          "name": "窈窕淑女(My Fair Lady)",
+          "originalName": "窈窕淑女(My Fair Lady)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "54",
+          "spotId": 10506,
+          "spotName": "達拉斯",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310507,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310507,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310507,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310507,
+              "type": "item",
+              "objectId": 6521,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000507,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050810.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100050820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050820.txt"
+                },
+                {
+                  "scriptId": "0100050821",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050821.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100050830",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050830.txt"
+                },
+                {
+                  "scriptId": "0100050831",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050831.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899924,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000506,
+          "name": "牛鎮體育館",
+          "originalName": "牛鎮體育館",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "54",
+          "spotId": 10506,
+          "spotName": "達拉斯",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000508,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499956,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10507,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "亞歷山德里亞",
+      "originalName": "亞歷山德里亞",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010507.png",
+      "x": 1194.0,
+      "y": 915.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -5,
+      "questOfsX": 36,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000509,
+          "name": "一個明星的誕生(A Star Is Born)",
+          "originalName": "一個明星的誕生(A Star Is Born)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "54",
+          "spotId": 10507,
+          "spotName": "亞歷山德里亞",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310508,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310508,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310508,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310508,
+              "type": "item",
+              "objectId": 6521,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000508,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100050910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050910.txt"
+                },
+                {
+                  "scriptId": "0100050911",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100050911.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899923,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000510,
+          "name": "離眾國(Ambivalence States)",
+          "originalName": "離眾國(Ambivalence States)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "54",
+          "spotId": 10507,
+          "spotName": "亞歷山德里亞",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310509,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310509,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310509,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310509,
+              "type": "item",
+              "objectId": 7005,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000509,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051010.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051020",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051020.txt"
+                },
+                {
+                  "scriptId": "0100051021",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051021.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100051030",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051030.txt"
+                },
+                {
+                  "scriptId": "0100051031",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051031.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899922,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000507,
+          "name": "威克斯島",
+          "originalName": "威克斯島",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "60",
+          "spotId": 10507,
+          "spotName": "亞歷山德里亞",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000510,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499955,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10508,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "華盛頓",
+      "originalName": "華盛頓",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010508.png",
+      "x": 1687.0,
+      "y": 595.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 38,
+      "questOfsY": -75,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000521,
+          "name": "北美神話大戰  急",
+          "originalName": "北美神話大戰  急",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "58",
+          "spotId": 10508,
+          "spotName": "華盛頓",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 21,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310520,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310520,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310520,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310520,
+              "type": "item",
+              "objectId": 6518,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000520,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100052110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100052120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052120.txt"
+                },
+                {
+                  "scriptId": "0100052121",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052121.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100052130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052130.txt"
+                },
+                {
+                  "scriptId": "0100052131",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899911,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000522,
+          "name": "Shielder．Master．Soldier．Nurse",
+          "originalName": "Shielder．Master．Soldier．Nurse",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10508,
+          "spotName": "華盛頓",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 22,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/3.png",
+          "gifts": [
+            {
+              "id": 310521,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            },
+            {
+              "id": 310521,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310521,
+              "type": "item",
+              "objectId": 6518,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310521,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000521,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100052210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100052220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052220.txt"
+                },
+                {
+                  "scriptId": "0100052221",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052221.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100052230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052230.txt"
+                },
+                {
+                  "scriptId": "0100052231",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052231.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100052240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052240.txt"
+                },
+                {
+                  "scriptId": "0100052241",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052241.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899910,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000513,
+          "name": "特別行政區",
+          "originalName": "特別行政區",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "73",
+          "spotId": 10508,
+          "spotName": "華盛頓",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000522,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499949,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10509,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "阿爾卡特拉斯島",
+      "originalName": "阿爾卡特拉斯島",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010509.png",
+      "x": 229.0,
+      "y": 664.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -2,
+      "questOfsX": 37,
+      "questOfsY": -78,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000511,
+          "name": "絕地任務(The Rock)",
+          "originalName": "絕地任務(The Rock)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "56",
+          "spotId": 10509,
+          "spotName": "阿爾卡特拉斯島",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310510,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310510,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310510,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310510,
+              "type": "item",
+              "objectId": 6506,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000510,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051110.txt"
+                },
+                {
+                  "scriptId": "0100051111",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051111.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051120.txt"
+                },
+                {
+                  "scriptId": "0100051121",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051121.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100051130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100051140",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051140.txt"
+                },
+                {
+                  "scriptId": "0100051141",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051141.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899921,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000512,
+          "name": "戰士的輓歌(Fallen)",
+          "originalName": "戰士的輓歌(Fallen)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "56",
+          "spotId": 10509,
+          "spotName": "阿爾卡特拉斯島",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310511,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310511,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310511,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310511,
+              "type": "item",
+              "objectId": 6520,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000511,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100051230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051230.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100051240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051240.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100051250",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051250.txt"
+                },
+                {
+                  "scriptId": "0100051251",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051251.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899920,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91101901,
+          "name": "毗濕奴的試煉",
+          "originalName": "毗濕奴的試煉",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10509,
+          "spotName": "阿爾卡特拉斯島",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000522,
+              "value": 0,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 101900,
+              "value": 3,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 101900,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 101900,
+              "value": 5,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            }
+          ],
+          "releaseOverwrites": [
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 1000522,
+              "condNum": 0,
+              "closedMessage": "第五特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放",
+              "overlayClosedMessage": "通關第五特異點後開放",
+              "eventId": 80398,
+              "startedAt": 1719464400,
+              "endedAt": 1720069199
+            }
+          ],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9110190110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110190110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9110190120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110190120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9110190130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110190130.txt"
+                },
+                {
+                  "scriptId": "9110190131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110190131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 689809,
+          "noticeAt": 1560920400,
+          "openedAt": 1560920400,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000508,
+          "name": "監獄島",
+          "originalName": "監獄島",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "56",
+          "spotId": 10509,
+          "spotName": "阿爾卡特拉斯島",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000512,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499954,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10510,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "得梅因",
+      "originalName": "得梅因",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010510.png",
+      "x": 1157.0,
+      "y": 471.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 35,
+      "questOfsY": -64,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000513,
+          "name": "飛越彩虹(Over The Rainbow)",
+          "originalName": "飛越彩虹(Over The Rainbow)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "56",
+          "spotId": 10510,
+          "spotName": "得梅因",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310512,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310512,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310512,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310512,
+              "type": "item",
+              "objectId": 6520,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000512,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051320",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051320.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100051330",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051330.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100051340",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051340.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100051350",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051350.txt"
+                },
+                {
+                  "scriptId": "0100051351",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051351.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899919,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000509,
+          "name": "監視據點",
+          "originalName": "監視據點",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "56",
+          "spotId": 10510,
+          "spotName": "得梅因",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000513,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499953,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10511,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "卡尼",
+      "originalName": "卡尼",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010511.png",
+      "x": 979.0,
+      "y": 526.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 36,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000514,
+          "name": "過關斬將(The Running Man)",
+          "originalName": "過關斬將(The Running Man)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "56",
+          "spotId": 10511,
+          "spotName": "卡尼",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 14,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310513,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310513,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310513,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310513,
+              "type": "item",
+              "objectId": 6519,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000513,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051410.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051420",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051420.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899918,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000510,
+          "name": "大平原",
+          "originalName": "大平原",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "60",
+          "spotId": 10511,
+          "spotName": "卡尼",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000514,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499952,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10512,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "蒙哥馬利",
+      "originalName": "蒙哥馬利",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010512.png",
+      "x": 1379.0,
+      "y": 879.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 36,
+      "questOfsY": -57,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000517,
+          "name": "黑色戰爭(War)",
+          "originalName": "黑色戰爭(War)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "58",
+          "spotId": 10512,
+          "spotName": "蒙哥馬利",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 17,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310516,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310516,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310516,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310516,
+              "type": "item",
+              "objectId": 6519,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000516,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051710.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051720",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051720.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899915,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000518,
+          "name": "戰火屠城(The Killing Fields)",
+          "originalName": "戰火屠城(The Killing Fields)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "58",
+          "spotId": 10512,
+          "spotName": "蒙哥馬利",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 18,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310517,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310517,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310517,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310517,
+              "type": "item",
+              "objectId": 6506,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000517,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051810.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051820.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100051830",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051830.txt"
+                },
+                {
+                  "scriptId": "0100051831",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051831.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100051840",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051840.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899914,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000519,
+          "name": "北美神話大戰  序",
+          "originalName": "北美神話大戰  序",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "58",
+          "spotId": 10512,
+          "spotName": "蒙哥馬利",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 19,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310518,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310518,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310518,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310518,
+              "type": "item",
+              "objectId": 6521,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000518,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100051910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051910.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100051920",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051920.txt"
+                },
+                {
+                  "scriptId": "0100051921",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100051921.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899913,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000511,
+          "name": "南國醫戀(Hart of Dixie)",
+          "originalName": "南國醫戀(Hart of Dixie)",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "58",
+          "spotId": 10512,
+          "spotName": "蒙哥馬利",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000519,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499951,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10513,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "夏洛特",
+      "originalName": "夏洛特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010513.png",
+      "x": 1564.0,
+      "y": 766.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -4,
+      "questOfsX": 37,
+      "questOfsY": -55,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000520,
+          "name": "北美神話大戰  破",
+          "originalName": "北美神話大戰  破",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "58",
+          "spotId": 10513,
+          "spotName": "夏洛特",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 20,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310519,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310519,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310519,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310519,
+              "type": "item",
+              "objectId": 6520,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000519,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100052010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052010.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100052020",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052020.txt"
+                },
+                {
+                  "scriptId": "0100052021",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100052021.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899912,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000512,
+          "name": "淘金熱",
+          "originalName": "淘金熱",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "70",
+          "spotId": 10513,
+          "spotName": "夏洛特",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000520,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499950,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10514,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 105,
+      "name": "芝加哥",
+      "originalName": "芝加哥",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/spot_010514.png",
+      "x": 1366.0,
+      "y": 504.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 3,
+      "questOfsX": 41,
+      "questOfsY": -71,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000514,
+          "name": "風之城",
+          "originalName": "風之城",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "76",
+          "spotId": 10514,
+          "spotName": "芝加哥",
+          "warId": 105,
+          "warLongName": "第五特異點\n北美神話大戰 合眾為一",
+          "chapterId": 5,
+          "chapterSubId": 14,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 93000513,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499948,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    }
+  ],
+  "spotRoads": [
+    {
+      "id": 10501,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10501,
+      "dstSpotId": 10502,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000501,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000501,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10502,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10502,
+      "dstSpotId": 10503,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000503,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000503,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10503,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10503,
+      "dstSpotId": 10504,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000505,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000505,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10504,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10504,
+      "dstSpotId": 10505,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000506,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000506,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10505,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10505,
+      "dstSpotId": 10506,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000507,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000507,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10506,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10506,
+      "dstSpotId": 10507,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000508,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000508,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10507,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10504,
+      "dstSpotId": 10509,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000510,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000510,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10508,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10509,
+      "dstSpotId": 10502,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000512,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000512,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10509,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10501,
+      "dstSpotId": 10510,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000512,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000512,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10510,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10510,
+      "dstSpotId": 10511,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000513,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000513,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10511,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10511,
+      "dstSpotId": 10503,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000514,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000514,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10512,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10507,
+      "dstSpotId": 10512,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000516,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000516,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10513,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10512,
+      "dstSpotId": 10513,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000519,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000519,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10514,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10513,
+      "dstSpotId": 10508,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000520,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000520,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10515,
+      "warId": 105,
+      "mapId": 105,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0105/QMap_Cap0105_Atlas/img_road0105_00.png",
+      "srcSpotId": 10508,
+      "dstSpotId": 10514,
+      "dispCondType": "itemGet",
+      "dispTargetId": 93000513,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 93000513,
+      "activeTargetValue": 0
+    }
+  ],
+  "questSelections": []
+}

@@ -1,0 +1,5991 @@
+{
+  "id": 107,
+  "coordinates": [
+    [
+      30.899125,
+      48.262494
+    ],
+    []
+  ],
+  "age": "BC:2655",
+  "name": "第七特異點",
+  "originalName": "第七特異點",
+  "longName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+  "originalLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+  "flags": [
+    "withMap",
+    "mainScenario",
+    "isWarIconLeft"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap107.png",
+  "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_12.png",
+  "priority": 107,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 105,
+    "name": "絕對魔獸戰線：\n巴比倫尼亞",
+    "originalName": "絕對魔獸戰線：\n巴比倫尼亞",
+    "fileName": "BGM_MAP_18",
+    "notReleased": false,
+    "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_18/BGM_MAP_18.mp3"
+  },
+  "scriptId": "0100070010",
+  "script": "https://static.atlasacademy.io/TW/Script/01/0100070010.txt",
+  "startType": "script",
+  "targetId": 100070010,
+  "eventId": 0,
+  "eventName": "",
+  "lastQuestId": 1000722,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 107,
+      "type": "bgm",
+      "priority": 0,
+      "overwriteId": 106,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 1000716,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 107,
+      "type": "bgm",
+      "priority": 1,
+      "overwriteId": 105,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 1000722,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 107,
+      "type": "parentWar",
+      "priority": 1,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 107,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    }
+  ],
+  "maps": [
+    {
+      "id": 107,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000107/img_questmap_000107.png",
+      "mapImageW": 2048,
+      "mapImageH": 1432,
+      "mapGimmicks": [
+        {
+          "id": 10701,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1788,
+          "y": 1161,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000718,
+          "dispTargetValue": 5,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000718,
+          "dispTargetValue2": 6,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10702,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1578,
+          "y": 1037,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000718,
+          "dispTargetValue": 6,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000719,
+          "dispTargetValue2": 1,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10703,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1457,
+          "y": 958,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000719,
+          "dispTargetValue": 1,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000719,
+          "dispTargetValue2": 2,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10704,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1411,
+          "y": 914,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000719,
+          "dispTargetValue": 2,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 1,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10705,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1368,
+          "y": 879,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 1,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 2,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10706,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1310,
+          "y": 843,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 2,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 3,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10707,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1249,
+          "y": 809,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 3,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 4,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10708,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1186,
+          "y": 776,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 4,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 5,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10709,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1125,
+          "y": 742,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 5,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 6,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10710,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1072,
+          "y": 703,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 6,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 7,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10711,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1028,
+          "y": 674,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 7,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000721,
+          "dispTargetValue2": 1,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10712,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010701.png",
+          "x": 1016,
+          "y": 652,
+          "depthOffset": 100,
+          "scale": 500,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000721,
+          "dispTargetValue": 1,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000721,
+          "dispTargetValue2": 2,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10713,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010713.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000715,
+          "dispTargetValue": 6,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000718,
+          "dispTargetValue2": 5,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10714,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010714.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000718,
+          "dispTargetValue": 5,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000718,
+          "dispTargetValue2": 6,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10715,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010715.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000718,
+          "dispTargetValue": 6,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000719,
+          "dispTargetValue2": 2,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10716,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010716.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000719,
+          "dispTargetValue": 2,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 1,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10717,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010717.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 1,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 2,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10718,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010718.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 2,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 3,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10719,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010719.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 3,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 4,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10720,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010720.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 4,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 5,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10721,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010721.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 5,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 6,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10722,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010722.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 6,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000720,
+          "dispTargetValue2": 7,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10723,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010723.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000720,
+          "dispTargetValue": 7,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000721,
+          "dispTargetValue2": 1,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10724,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010724.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000721,
+          "dispTargetValue": 1,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000722,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10725,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/gimmick_010725.png",
+          "x": 1024,
+          "y": 716,
+          "depthOffset": -35,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000721,
+          "dispTargetValue": 1,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000722,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        }
+      ],
+      "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_12.png",
+      "bgm": {
+        "id": 105,
+        "name": "絕對魔獸戰線：\n巴比倫尼亞",
+        "originalName": "絕對魔獸戰線：\n巴比倫尼亞",
+        "fileName": "BGM_MAP_18",
+        "notReleased": false,
+        "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_18/BGM_MAP_18.mp3"
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 10701,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "廢都巴比倫",
+      "originalName": "廢都巴比倫",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010701.png",
+      "x": 584.0,
+      "y": 591.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 37,
+      "questOfsY": -69,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000701,
+          "name": "身在神代",
+          "originalName": "身在神代",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "72",
+          "spotId": 10701,
+          "spotName": "廢都巴比倫",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310700,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310700,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310700,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310700,
+              "type": "item",
+              "objectId": 6527,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000632,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100070130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070130.txt"
+                },
+                {
+                  "scriptId": "0100070131",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070131.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100070140",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070140.txt"
+                },
+                {
+                  "scriptId": "0100070141",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070141.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899877,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10702,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "北之高臺",
+      "originalName": "北之高臺",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010702.png",
+      "x": 422.0,
+      "y": 506.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -7,
+      "questOfsX": 35,
+      "questOfsY": -66,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000702,
+          "name": "人類最古老的要塞都市",
+          "originalName": "人類最古老的要塞都市",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "72",
+          "spotId": 10702,
+          "spotName": "北之高臺",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310701,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310701,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310701,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310701,
+              "type": "item",
+              "objectId": 6527,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000701,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            5
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070211",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070211.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100070230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070230.txt"
+                },
+                {
+                  "scriptId": "0100070231",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070231.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100070240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070240.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100070250",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070250.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899876,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000702,
+          "name": "戰禍的眺望",
+          "originalName": "戰禍的眺望",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "72",
+          "spotId": 10702,
+          "spotName": "北之高臺",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499932,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10703,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "黑色杉木林",
+      "originalName": "黑色杉木林",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010703.png",
+      "x": 276.0,
+      "y": 440.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -7,
+      "questOfsX": 35,
+      "questOfsY": -78,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 91300801,
+          "name": "由神創造，由人編織，回歸泥土 Ⅰ",
+          "originalName": "由神創造，由人編織，回歸泥土 Ⅰ",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10703,
+          "spotName": "黑色杉木林",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 2000118,
+              "value": 0,
+              "closedMessage": "亞種特異點Ⅰ通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 300800,
+              "value": 2,
+              "closedMessage": "亞種特異點Ⅰ通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 300800,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 300800,
+              "value": 4,
+              "closedMessage": "亞種特異點Ⅰ通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 2000118,
+              "condNum": 0,
+              "closedMessage": "亞種特異點Ⅰ通關＆靈基再臨第2階段＆羈絆Lv.4後開放",
+              "overlayClosedMessage": "通關亞種特異點Ⅰ後開放",
+              "eventId": 80438,
+              "startedAt": 1743656400,
+              "endedAt": 1744261199
+            }
+          ],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9130080110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9130080110.txt"
+                },
+                {
+                  "scriptId": "9130080111",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9130080111.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9130080120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9130080120.txt"
+                },
+                {
+                  "scriptId": "9130080121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9130080121.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9130080130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9130080130.txt"
+                },
+                {
+                  "scriptId": "9130080131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9130080131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 669919,
+          "noticeAt": 1570809600,
+          "openedAt": 1570809600,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000703,
+          "name": "魔獸的居所",
+          "originalName": "魔獸的居所",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "72",
+          "spotId": 10703,
+          "spotName": "黑色杉木林",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499931,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10704,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "高原",
+      "originalName": "高原",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010704.png",
+      "x": 589.0,
+      "y": 833.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -7,
+      "questOfsX": 36,
+      "questOfsY": -50,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000704,
+          "name": "航海家的捷徑",
+          "originalName": "航海家的捷徑",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "72",
+          "spotId": 10704,
+          "spotName": "高原",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499930,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10705,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "烏魯克市內",
+      "originalName": "烏魯克市內",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010705.png",
+      "x": 963.0,
+      "y": 730.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 36,
+      "questOfsY": -58,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000712,
+          "name": "太陽神殿",
+          "originalName": "太陽神殿",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "77",
+          "spotId": 10705,
+          "spotName": "烏魯克市內",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310711,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310711,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310711,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310711,
+              "type": "item",
+              "objectId": 6528,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000711,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            5
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071220.txt"
+                },
+                {
+                  "scriptId": "0100071221",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071221.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071230.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100071240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071240.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100071250",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071250.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899866,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000717,
+          "name": "新人類的形態",
+          "originalName": "新人類的形態",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "79",
+          "spotId": 10705,
+          "spotName": "烏魯克市內",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 17,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310716,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310716,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310716,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310716,
+              "type": "item",
+              "objectId": 6529,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000716,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071710.txt"
+                },
+                {
+                  "scriptId": "0100071711",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071711.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071720",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071720.txt"
+                },
+                {
+                  "scriptId": "0100071721",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071721.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071730",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071730.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100071740",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071740.txt"
+                },
+                {
+                  "scriptId": "0100071741",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071741.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899861,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000722,
+          "name": "返回迦勒底",
+          "originalName": "返回迦勒底",
+          "type": "main",
+          "flags": [
+            "noBattle",
+            "noDisplayMissionNotify"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10705,
+          "spotName": "烏魯克市內",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 22,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/3.png",
+          "gifts": [
+            {
+              "id": 310720,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310720,
+              "type": "item",
+              "objectId": 80010001,
+              "priority": 0,
+              "num": 20,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000721,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100072210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072210.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899856,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10706,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "神塔",
+      "originalName": "神塔",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010706.png",
+      "x": 962.0,
+      "y": 621.0,
+      "imageOfsX": 5,
+      "imageOfsY": 10,
+      "nameOfsX": 0,
+      "nameOfsY": 3,
+      "questOfsX": 37,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000703,
+          "name": "吉爾伽美什的災難",
+          "originalName": "吉爾伽美什的災難",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "73",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310702,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310702,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310702,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310702,
+              "type": "item",
+              "objectId": 6525,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000702,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070320",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070320.txt"
+                },
+                {
+                  "scriptId": "0100070321",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070321.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899875,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000707,
+          "name": "天命泥板",
+          "originalName": "天命泥板",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "75",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310706,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310706,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310706,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310706,
+              "type": "item",
+              "objectId": 6527,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000706,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070710.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070720",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070720.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100070730",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070730.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100070740",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070740.txt"
+                },
+                {
+                  "scriptId": "0100070741",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070741.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899871,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000708,
+          "name": "烏魯克北壁",
+          "originalName": "烏魯克北壁",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "75",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310707,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310707,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310707,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310707,
+              "type": "item",
+              "objectId": 6528,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000707,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1,
+            3
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070810.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070820.txt"
+                },
+                {
+                  "scriptId": "0100070821",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070821.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100070830",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070830.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899870,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000710,
+          "name": "早安，金星女神",
+          "originalName": "早安，金星女神",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "76",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310709,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310709,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310709,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310709,
+              "type": "item",
+              "objectId": 6529,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000709,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071010.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071020",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071020.txt"
+                },
+                {
+                  "scriptId": "0100071021",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071021.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071030",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071030.txt"
+                },
+                {
+                  "scriptId": "0100071031",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071031.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100071040",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071040.txt"
+                },
+                {
+                  "scriptId": "0100071041",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071041.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899868,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000711,
+          "name": "你好，太陽女神",
+          "originalName": "你好，太陽女神",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "77",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310710,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310710,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310710,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310710,
+              "type": "item",
+              "objectId": 6528,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000710,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1,
+            4
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100071140",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071140.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899867,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000715,
+          "name": "決戰",
+          "originalName": "決戰",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "78",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 15,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310714,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310714,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310714,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310714,
+              "type": "item",
+              "objectId": 6509,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000714,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071510.txt"
+                },
+                {
+                  "scriptId": "0100071511",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071511.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071520",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071520.txt"
+                },
+                {
+                  "scriptId": "0100071521",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071521.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071530",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071530.txt"
+                },
+                {
+                  "scriptId": "0100071531",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071531.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100071541",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071541.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100071550",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071550.txt"
+                },
+                {
+                  "scriptId": "0100071551",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071551.txt"
+                }
+              ]
+            },
+            {
+              "phase": 6,
+              "scripts": [
+                {
+                  "scriptId": "0100071560",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071560.txt"
+                },
+                {
+                  "scriptId": "0100071561",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071561.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899863,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000719,
+          "name": "起源之星，仰望天空",
+          "originalName": "起源之星，仰望天空",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "79",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 19,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000718,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1,
+            2
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071910.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071920",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071920.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899859,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000720,
+          "name": "絕對魔獸戰線美索不達米亞(Ⅰ)",
+          "originalName": "絕對魔獸戰線美索不達米亞(Ⅰ)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10706,
+          "spotName": "神塔",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 20,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310718,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310718,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310718,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310718,
+              "type": "item",
+              "objectId": 6529,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000719,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100072010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072010.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100072020",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072020.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100072030",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072030.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100072040",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072040.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100072050",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072050.txt"
+                },
+                {
+                  "scriptId": "0100072051",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072051.txt"
+                }
+              ]
+            },
+            {
+              "phase": 6,
+              "scripts": [
+                {
+                  "scriptId": "0100072060",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072060.txt"
+                }
+              ]
+            },
+            {
+              "phase": 7,
+              "scripts": [
+                {
+                  "scriptId": "0100072070",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072070.txt"
+                },
+                {
+                  "scriptId": "0100072071",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072071.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899858,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10707,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "大使館",
+      "originalName": "大使館",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010707.png",
+      "x": 1070.0,
+      "y": 663.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 33,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000704,
+          "name": "勞作的烏魯克民眾",
+          "originalName": "勞作的烏魯克民眾",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "73",
+          "spotId": 10707,
+          "spotName": "大使館",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310703,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310703,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310703,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310703,
+              "type": "item",
+              "objectId": 7002,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000703,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1,
+            5
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070410.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070420",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070420.txt"
+                },
+                {
+                  "scriptId": "0100070421",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070421.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100070430",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070430.txt"
+                },
+                {
+                  "scriptId": "0100070431",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070431.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100070440",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070440.txt"
+                },
+                {
+                  "scriptId": "0100070441",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070441.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100070450",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070450.txt"
+                }
+              ]
+            },
+            {
+              "phase": 6,
+              "scripts": [
+                {
+                  "scriptId": "0100070460",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070460.txt"
+                },
+                {
+                  "scriptId": "0100070461",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070461.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899874,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000705,
+          "name": "密林的呼喚",
+          "originalName": "密林的呼喚",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "74",
+          "spotId": 10707,
+          "spotName": "大使館",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310704,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310704,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310704,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310704,
+              "type": "item",
+              "objectId": 6527,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000704,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070510.txt"
+                },
+                {
+                  "scriptId": "0100070511",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070511.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070521",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070521.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100070530",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070530.txt"
+                },
+                {
+                  "scriptId": "0100070531",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070531.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100070540",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070540.txt"
+                },
+                {
+                  "scriptId": "0100070541",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070541.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899873,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000706,
+          "name": "遭遇",
+          "originalName": "遭遇",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "74",
+          "spotId": 10707,
+          "spotName": "大使館",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310705,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310705,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310705,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310705,
+              "type": "item",
+              "objectId": 6527,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000705,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070610.txt"
+                },
+                {
+                  "scriptId": "0100070611",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070611.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070620",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070620.txt"
+                },
+                {
+                  "scriptId": "0100070621",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070621.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899872,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10708,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "溼地",
+      "originalName": "溼地",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010708.png",
+      "x": 1011.0,
+      "y": 889.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -7,
+      "questOfsX": 36,
+      "questOfsY": -50,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10709,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "烏爾",
+      "originalName": "烏爾",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010709.png",
+      "x": 1129.0,
+      "y": 1072.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -5,
+      "questOfsX": 36,
+      "questOfsY": -64,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10710,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "觀測所",
+      "originalName": "觀測所",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010710.png",
+      "x": 1401.0,
+      "y": 956.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -11,
+      "questOfsX": 32,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000718,
+          "name": "覺醒",
+          "originalName": "覺醒",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "79",
+          "spotId": 10710,
+          "spotName": "觀測所",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 18,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310717,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310717,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310717,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310717,
+              "type": "item",
+              "objectId": 6529,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000717,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            3,
+            6
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071810.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071820.txt"
+                },
+                {
+                  "scriptId": "0100071821",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071821.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071830",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071830.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100071840",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071840.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100071850",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071850.txt"
+                },
+                {
+                  "scriptId": "0100071851",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071851.txt"
+                }
+              ]
+            },
+            {
+              "phase": 6,
+              "scripts": [
+                {
+                  "scriptId": "0100071860",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071860.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899860,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10711,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "蘆葦原",
+      "originalName": "蘆葦原",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010711.png",
+      "x": 1054.0,
+      "y": 529.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -7,
+      "questOfsX": 36,
+      "questOfsY": -50,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10712,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "庫撒",
+      "originalName": "庫撒",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010712.png",
+      "x": 1177.0,
+      "y": 483.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 36,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000714,
+          "name": "再見，冥界女神",
+          "originalName": "再見，冥界女神",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "78",
+          "spotId": 10712,
+          "spotName": "庫撒",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 14,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310713,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310713,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310713,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310713,
+              "type": "item",
+              "objectId": 6517,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000713,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            7
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071410.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071420",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071420.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071430",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071430.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100071440",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071440.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100071450",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071450.txt"
+                }
+              ]
+            },
+            {
+              "phase": 6,
+              "scripts": [
+                {
+                  "scriptId": "0100071460",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071460.txt"
+                }
+              ]
+            },
+            {
+              "phase": 7,
+              "scripts": [
+                {
+                  "scriptId": "0100071470",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071470.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899864,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10713,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "庫撒＠冥界",
+      "originalName": "庫撒＠冥界",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010713.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 36,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10714,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "北壁",
+      "originalName": "北壁",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010714.png",
+      "x": 856.0,
+      "y": 559.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 37,
+      "questOfsY": -66,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000709,
+          "name": "魔獸母神",
+          "originalName": "魔獸母神",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "76",
+          "spotId": 10714,
+          "spotName": "北壁",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310708,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310708,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310708,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310708,
+              "type": "item",
+              "objectId": 6528,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000708,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100070910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070910.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100070920",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070920.txt"
+                },
+                {
+                  "scriptId": "0100070921",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070921.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100070930",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070930.txt"
+                },
+                {
+                  "scriptId": "0100070931",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100070931.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899869,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10715,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "尼普爾",
+      "originalName": "尼普爾",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010715.png",
+      "x": 753.0,
+      "y": 495.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -2,
+      "questOfsX": 34,
+      "questOfsY": -63,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10716,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "尼普爾＠崩潰",
+      "originalName": "尼普爾＠崩潰",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010716.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -2,
+      "questOfsX": 34,
+      "questOfsY": -63,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10717,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "艾比夫山",
+      "originalName": "艾比夫山",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010717.png",
+      "x": 1403.0,
+      "y": 276.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -2,
+      "questOfsX": 37,
+      "questOfsY": -83,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 91700602,
+          "name": "大江山，金時除鬼",
+          "originalName": "大江山，金時除鬼",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10717,
+          "spotName": "艾比夫山",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000822,
+              "value": 0,
+              "closedMessage": "終局特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91700601,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 700600,
+              "value": 3,
+              "closedMessage": "終局特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 700600,
+              "value": 5,
+              "closedMessage": "終局特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9170060210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170060210.txt"
+                },
+                {
+                  "scriptId": "9170060211",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170060211.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9170060220",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170060220.txt"
+                },
+                {
+                  "scriptId": "9170060221",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170060221.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 629938,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000713,
+          "name": "顫抖的靈峰",
+          "originalName": "顫抖的靈峰",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "80",
+          "spotId": 10717,
+          "spotName": "艾比夫山",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499921,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000715,
+          "name": "大江山盜賊團",
+          "originalName": "大江山盜賊團",
+          "type": "free",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10717,
+          "spotName": "艾比夫山",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 15,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "questClear",
+              "targetId": 93000713,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499919,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10718,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "埃里都",
+      "originalName": "埃里都",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010718.png",
+      "x": 1199.0,
+      "y": 1236.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 1,
+      "questOfsX": 47,
+      "questOfsY": -63,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000713,
+          "name": "天命預言",
+          "originalName": "天命預言",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "78",
+          "spotId": 10718,
+          "spotName": "埃里都",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310712,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310712,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310712,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310712,
+              "type": "item",
+              "objectId": 6528,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000712,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100071320",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071320.txt"
+                },
+                {
+                  "scriptId": "0100071321",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071321.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100071331",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071331.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899865,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10719,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "埃里都",
+      "originalName": "埃里都",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010719.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 1,
+      "questOfsX": 47,
+      "questOfsY": -63,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10720,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "埃里都",
+      "originalName": "埃里都",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010720.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 1,
+      "questOfsX": 47,
+      "questOfsY": -63,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10721,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "鮮血神殿",
+      "originalName": "鮮血神殿",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010722.png",
+      "x": 381.0,
+      "y": 271.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -5,
+      "questOfsX": 37,
+      "questOfsY": -89,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000716,
+          "name": "終焉",
+          "originalName": "終焉",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "79",
+          "spotId": 10721,
+          "spotName": "鮮血神殿",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 16,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310715,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310715,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310715,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310715,
+              "type": "item",
+              "objectId": 6529,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000715,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100071610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071610.txt"
+                },
+                {
+                  "scriptId": "0100071611",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100071611.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899862,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000714,
+          "name": "先兆之山",
+          "originalName": "先兆之山",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "80",
+          "spotId": 10721,
+          "spotName": "鮮血神殿",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 14,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499920,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10722,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "鮮血神殿",
+      "originalName": "鮮血神殿",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010722.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -5,
+      "questOfsX": 37,
+      "questOfsY": -89,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10723,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "波斯灣",
+      "originalName": "波斯灣",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010723.png",
+      "x": 1576.0,
+      "y": 1101.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10724,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "波斯灣",
+      "originalName": "波斯灣",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010724.png",
+      "x": 1786.0,
+      "y": 1224.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10725,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "迪亞馬特",
+      "originalName": "迪亞馬特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010725.png",
+      "x": 1366.0,
+      "y": 942.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10726,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "迪亞馬特",
+      "originalName": "迪亞馬特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010726.png",
+      "x": 1308.0,
+      "y": 906.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10727,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "迪亞馬特",
+      "originalName": "迪亞馬特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010727.png",
+      "x": 1247.0,
+      "y": 872.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10728,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "迪亞馬特",
+      "originalName": "迪亞馬特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010728.png",
+      "x": 1184.0,
+      "y": 839.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10729,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "迪亞馬特",
+      "originalName": "迪亞馬特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010729.png",
+      "x": 1123.0,
+      "y": 805.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10730,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "迪亞馬特",
+      "originalName": "迪亞馬特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010730.png",
+      "x": 1070.0,
+      "y": 766.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -53,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10731,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "天之丘",
+      "originalName": "天之丘",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010731.png",
+      "x": 859.0,
+      "y": 663.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 30,
+      "questOfsY": -54,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000721,
+          "name": "絕對魔獸戰線美索不達米亞(Ⅱ)",
+          "originalName": "絕對魔獸戰線美索不達米亞(Ⅱ)",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10731,
+          "spotName": "天之丘",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 21,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310719,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            },
+            {
+              "id": 310719,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310719,
+              "type": "item",
+              "objectId": 6529,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310719,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000720,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            2
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100072110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100072120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100072130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100072140",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072140.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100072150",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072150.txt"
+                },
+                {
+                  "scriptId": "0100072151",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072151.txt"
+                }
+              ]
+            },
+            {
+              "phase": 6,
+              "scripts": [
+                {
+                  "scriptId": "0100072160",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072160.txt"
+                },
+                {
+                  "scriptId": "0100072161",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100072161.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899857,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10732,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "烏魯克",
+      "originalName": "烏魯克",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010732.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 36,
+      "questOfsY": -58,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10733,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "烏魯克",
+      "originalName": "烏魯克",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010733.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 36,
+      "questOfsY": -58,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10734,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "烏魯克",
+      "originalName": "烏魯克",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010734.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 36,
+      "questOfsY": -58,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10735,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "廢都巴比倫",
+      "originalName": "廢都巴比倫",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010701.png",
+      "x": 584.0,
+      "y": 591.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 37,
+      "questOfsY": -69,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 91202001,
+          "name": "十一塔爾",
+          "originalName": "十一塔爾",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10735,
+          "spotName": "廢都巴比倫",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": "第七特異點通關＆靈基再臨第2階段後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 202000,
+              "value": 2,
+              "closedMessage": "第七特異點通關＆靈基再臨第2階段後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 202000,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 202000,
+              "value": 0,
+              "closedMessage": "第七特異點通關＆靈基再臨第2階段後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120200110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120200110.txt"
+                },
+                {
+                  "scriptId": "9120200111",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120200111.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9120200120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120200120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9120200130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120200130.txt"
+                },
+                {
+                  "scriptId": "9120200131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120200131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679799,
+          "noticeAt": 1563685199,
+          "openedAt": 1563685199,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000701,
+          "name": "遺失之都",
+          "originalName": "遺失之都",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "72",
+          "spotId": 10735,
+          "spotName": "廢都巴比倫",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499933,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10736,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "大使館",
+      "originalName": "大使館",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010707.png",
+      "x": 1070.0,
+      "y": 663.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 33,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10737,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "溼地",
+      "originalName": "溼地",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010708.png",
+      "x": 1011.0,
+      "y": 889.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -7,
+      "questOfsX": 36,
+      "questOfsY": -50,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000705,
+          "name": "川間大地",
+          "originalName": "川間大地",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "74",
+          "spotId": 10737,
+          "spotName": "溼地",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499929,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10738,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "烏爾",
+      "originalName": "烏爾",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010709.png",
+      "x": 1128.0,
+      "y": 1072.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -5,
+      "questOfsX": 36,
+      "questOfsY": -64,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000706,
+          "name": "美洲豹樂園",
+          "originalName": "美洲豹樂園",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "74",
+          "spotId": 10738,
+          "spotName": "烏爾",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499928,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10739,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "觀測所",
+      "originalName": "觀測所",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010710.png",
+      "x": 1401.0,
+      "y": 956.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -11,
+      "questOfsX": 32,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000708,
+          "name": "母親之海",
+          "originalName": "母親之海",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "76",
+          "spotId": 10739,
+          "spotName": "觀測所",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499926,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10740,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "蘆葦原",
+      "originalName": "蘆葦原",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010711.png",
+      "x": 1054.0,
+      "y": 529.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -7,
+      "questOfsX": 36,
+      "questOfsY": -50,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000709,
+          "name": "豐收祈願",
+          "originalName": "豐收祈願",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "76",
+          "spotId": 10740,
+          "spotName": "蘆葦原",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499925,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10741,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "庫撒",
+      "originalName": "庫撒",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010712.png",
+      "x": 1177.0,
+      "y": 483.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 36,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000710,
+          "name": "冥界入口",
+          "originalName": "冥界入口",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "78",
+          "spotId": 10741,
+          "spotName": "庫撒",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499924,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10742,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "北壁",
+      "originalName": "北壁",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010714.png",
+      "x": 856.0,
+      "y": 559.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 37,
+      "questOfsY": -66,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 91702201,
+          "name": "渡行的世間只有鬼",
+          "originalName": "渡行的世間只有鬼",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10742,
+          "spotName": "北壁",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": "第七特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 702200,
+              "value": 2,
+              "closedMessage": "第七特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 702200,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 702200,
+              "value": 3,
+              "closedMessage": "第七特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9170220110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170220110.txt"
+                },
+                {
+                  "scriptId": "9170220111",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170220111.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9170220120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170220120.txt"
+                },
+                {
+                  "scriptId": "9170220121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170220121.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 629779,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000711,
+          "name": "魔獸戰線舊址",
+          "originalName": "魔獸戰線舊址",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "78",
+          "spotId": 10742,
+          "spotName": "北壁",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499923,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10743,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "尼普爾",
+      "originalName": "尼普爾",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010716.png",
+      "x": 753.0,
+      "y": 496.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -2,
+      "questOfsX": 34,
+      "questOfsY": -63,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [
+        {
+          "priority": 1,
+          "overrideType": "namePanelOffsetX",
+          "targetId": -26,
+          "targetText": "",
+          "condType": "questClear",
+          "condTargetId": 1000722,
+          "condNum": 0
+        }
+      ],
+      "quests": [
+        {
+          "id": 93000712,
+          "name": "天地連接之所",
+          "originalName": "天地連接之所",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "80",
+          "spotId": 10743,
+          "spotName": "尼普爾",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499922,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10744,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 107,
+      "name": "埃里都",
+      "originalName": "埃里都",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/spot_010719.png",
+      "x": 1199.0,
+      "y": 1236.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 1,
+      "questOfsX": 47,
+      "questOfsY": -63,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000707,
+          "name": "王權之地",
+          "originalName": "王權之地",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "74",
+          "spotId": 10744,
+          "spotName": "埃里都",
+          "warId": 107,
+          "warLongName": "第七特異點\n絕對魔獸戰線 巴比倫尼亞",
+          "chapterId": 7,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499927,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    }
+  ],
+  "spotRoads": [
+    {
+      "id": 10701,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10701,
+      "dstSpotId": 10702,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000701,
+      "dispTargetValue": 0,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 7,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000701,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10702,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10702,
+      "dstSpotId": 10703,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000702,
+      "dispTargetValue": 1,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000702,
+      "activeTargetValue": 1
+    },
+    {
+      "id": 10703,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10702,
+      "dstSpotId": 10704,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000702,
+      "dispTargetValue": 3,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 7,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000702,
+      "activeTargetValue": 3
+    },
+    {
+      "id": 10704,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10704,
+      "dstSpotId": 10705,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000702,
+      "dispTargetValue": 4,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 4,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000702,
+      "activeTargetValue": 4
+    },
+    {
+      "id": 10705,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10705,
+      "dstSpotId": 10706,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000702,
+      "dispTargetValue": 5,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000702,
+      "activeTargetValue": 5
+    },
+    {
+      "id": 10706,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10706,
+      "dstSpotId": 10707,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000703,
+      "dispTargetValue": 0,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 7,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000703,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10707,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10705,
+      "dstSpotId": 10708,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000705,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000718,
+      "dispTargetValue2": 5,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000705,
+      "activeTargetValue": 1
+    },
+    {
+      "id": 10708,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10708,
+      "dstSpotId": 10709,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000705,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000718,
+      "dispTargetValue2": 5,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000705,
+      "activeTargetValue": 2
+    },
+    {
+      "id": 10709,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10708,
+      "dstSpotId": 10710,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000706,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000718,
+      "dispTargetValue2": 5,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000706,
+      "activeTargetValue": 1
+    },
+    {
+      "id": 10710,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10706,
+      "dstSpotId": 10711,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000707,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 5,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000707,
+      "activeTargetValue": 1
+    },
+    {
+      "id": 10711,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10711,
+      "dstSpotId": 10712,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000707,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 5,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000707,
+      "activeTargetValue": 2
+    },
+    {
+      "id": 10712,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10706,
+      "dstSpotId": 10714,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000708,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 7,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000708,
+      "activeTargetValue": 1
+    },
+    {
+      "id": 10713,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10714,
+      "dstSpotId": 10715,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000709,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 7,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000709,
+      "activeTargetValue": 1
+    },
+    {
+      "id": 10714,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10712,
+      "dstSpotId": 10717,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000710,
+      "dispTargetValue": 1,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000720,
+      "dispTargetValue2": 7,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000710,
+      "activeTargetValue": 1
+    },
+    {
+      "id": 10715,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10709,
+      "dstSpotId": 10718,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000712,
+      "dispTargetValue": 2,
+      "dispCondType2": "useItemEternity",
+      "dispTargetId2": 1000718,
+      "dispTargetValue2": 5,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000712,
+      "activeTargetValue": 2
+    },
+    {
+      "id": 10716,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10703,
+      "dstSpotId": 10721,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000715,
+      "dispTargetValue": 4,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000715,
+      "activeTargetValue": 4
+    },
+    {
+      "id": 10717,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10706,
+      "dstSpotId": 10731,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000702,
+      "dispTargetValue": 5,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000702,
+      "activeTargetValue": 5
+    },
+    {
+      "id": 10718,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10735,
+      "dstSpotId": 10702,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10719,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10702,
+      "dstSpotId": 10704,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10720,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10704,
+      "dstSpotId": 10705,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10721,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10706,
+      "dstSpotId": 10736,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10722,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10705,
+      "dstSpotId": 10737,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10723,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10737,
+      "dstSpotId": 10738,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10724,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10737,
+      "dstSpotId": 10739,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10725,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10706,
+      "dstSpotId": 10740,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10726,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10740,
+      "dstSpotId": 10741,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10727,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10706,
+      "dstSpotId": 10742,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10728,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10714,
+      "dstSpotId": 10743,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10729,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10741,
+      "dstSpotId": 10717,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10730,
+      "warId": 107,
+      "mapId": 107,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0107/QMap_Cap0107_Atlas/img_road0107_00.png",
+      "srcSpotId": 10738,
+      "dstSpotId": 10744,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000722,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000722,
+      "activeTargetValue": 0
+    }
+  ],
+  "questSelections": []
+}

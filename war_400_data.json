@@ -1,0 +1,233 @@
+{
+  "id": 400,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "奏章 序",
+  "originalName": "奏章 序",
+  "longName": "奏章 序",
+  "originalLongName": "奏章 序",
+  "flags": [
+    "mainScenario",
+    "isWarIconLeft",
+    "dispFirstQuest"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap400.png",
+  "priority": 400,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 0,
+    "name": "",
+    "originalName": "",
+    "fileName": "",
+    "notReleased": true
+  },
+  "scriptId": "0",
+  "script": "https://static.atlasacademy.io/TW/Script/0/0.txt",
+  "startType": "quest",
+  "targetId": 4000000,
+  "eventId": 0,
+  "eventName": "",
+  "lastQuestId": 4000000,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 400,
+      "type": "warForceHide",
+      "priority": 1,
+      "overwriteId": 0,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 4000000,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 400,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 13000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 400,
+      "type": "materialParentWar",
+      "priority": 3,
+      "overwriteId": 14000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 4000000,
+      "value": 0,
+      "startedAt": 1742446800,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    }
+  ],
+  "maps": [
+    {
+      "id": 400,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000400/img_questmap_000400.png",
+      "mapImageW": 0,
+      "mapImageH": 0,
+      "mapGimmicks": [],
+      "bgm": {
+        "id": 0,
+        "name": "",
+        "originalName": "",
+        "fileName": "",
+        "notReleased": true
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 40001,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 400,
+      "name": "奏章序幕",
+      "originalName": "奏章序幕",
+      "x": 0.0,
+      "y": 0.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 4000000,
+          "name": "Ordeal Call 序",
+          "originalName": "Ordeal Call 序",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 40001,
+          "spotName": "奏章序幕",
+          "warId": 400,
+          "warLongName": "奏章 序",
+          "chapterId": 400,
+          "chapterSubId": 0,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3001327,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0400000110",
+                  "script": "https://static.atlasacademy.io/TW/Script/04/0400000110.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 4000000,
+          "noticeAt": 1731992400,
+          "openedAt": 1731992400,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 4000199,
+          "name": "Ordeal Call　０",
+          "originalName": "Ordeal Call　０",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 40001,
+          "spotName": "奏章序幕",
+          "warId": 400,
+          "warLongName": "奏章 序",
+          "chapterId": 401,
+          "chapterSubId": 99,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "forceFalse",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0400019910",
+                  "script": "https://static.atlasacademy.io/TW/Script/04/0400019910.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 3999999,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        }
+      ]
+    }
+  ],
+  "spotRoads": [],
+  "questSelections": []
+}

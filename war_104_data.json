@@ -1,0 +1,4097 @@
+{
+  "id": 104,
+  "coordinates": [
+    [
+      52.09404,
+      -1.09384
+    ],
+    []
+  ],
+  "age": "AD:1888",
+  "name": "第四特異點",
+  "originalName": "第四特異點",
+  "longName": "第四特異點\n死界魔霧都市 倫敦",
+  "originalLongName": "第四特異點\n死界魔霧都市 倫敦",
+  "flags": [
+    "withMap",
+    "mainScenario"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap104.png",
+  "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_9.png",
+  "priority": 104,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 28,
+    "name": "死界魔霧都市：\n倫敦",
+    "originalName": "死界魔霧都市：\n倫敦",
+    "fileName": "BGM_MAP_6",
+    "notReleased": false,
+    "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_6/BGM_MAP_6.mp3"
+  },
+  "scriptId": "0100040010",
+  "script": "https://static.atlasacademy.io/TW/Script/01/0100040010.txt",
+  "startType": "script",
+  "targetId": 100040010,
+  "eventId": 0,
+  "eventName": "",
+  "lastQuestId": 1000413,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 104,
+      "type": "parentWar",
+      "priority": 1,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 104,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    }
+  ],
+  "maps": [
+    {
+      "id": 104,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000104/img_questmap_000104.png",
+      "mapImageW": 1920,
+      "mapImageH": 1240,
+      "mapGimmicks": [
+        {
+          "id": 10401,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/gimmick_010401.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": -1,
+          "scale": 2000,
+          "dispCondType": "useItemEternity",
+          "dispTargetId": 1000413,
+          "dispTargetValue": 0,
+          "dispCondType2": "questClear",
+          "dispTargetId2": 0,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        }
+      ],
+      "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_9.png",
+      "bgm": {
+        "id": 28,
+        "name": "死界魔霧都市：\n倫敦",
+        "originalName": "死界魔霧都市：\n倫敦",
+        "fileName": "BGM_MAP_6",
+        "notReleased": false,
+        "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_6/BGM_MAP_6.mp3"
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 10401,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "舊街",
+      "originalName": "舊街",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010401.png",
+      "x": 1550.0,
+      "y": 281.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000401,
+          "name": "倫敦，魔霧都市",
+          "originalName": "倫敦，魔霧都市",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "42",
+          "spotId": 10401,
+          "spotName": "舊街",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310400,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310400,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310400,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310400,
+              "type": "item",
+              "objectId": 6510,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000314,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040110.txt"
+                },
+                {
+                  "scriptId": "0100040111",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899944,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000401,
+          "name": "濃霧，馬車與瓦斯燈",
+          "originalName": "濃霧，馬車與瓦斯燈",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 15,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "42",
+          "spotId": 10401,
+          "spotName": "舊街",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000401,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499970,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10402,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "白色教堂",
+      "originalName": "白色教堂",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010402.png",
+      "x": 1655.0,
+      "y": 523.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000402,
+          "name": "倫蒂尼恩的騎士",
+          "originalName": "倫蒂尼恩的騎士",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "42",
+          "spotId": 10402,
+          "spotName": "白色教堂",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310401,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310401,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310401,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310401,
+              "type": "item",
+              "objectId": 6514,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000401,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040220.txt"
+                },
+                {
+                  "scriptId": "0100040221",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040221.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100040230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040230.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100040240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040240.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100040250",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040250.txt"
+                },
+                {
+                  "scriptId": "0100040251",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040251.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899943,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91600501,
+          "name": "死於傑克之手的傑克",
+          "originalName": "死於傑克之手的傑克",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10402,
+          "spotName": "白色教堂",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 600500,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 600500,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 600500,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9160050110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160050110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9160050120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160050120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9160050130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160050130.txt"
+                },
+                {
+                  "scriptId": "9160050131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160050131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 639949,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000402,
+          "name": "貧民窟",
+          "originalName": "貧民窟",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 15,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "42",
+          "spotId": 10402,
+          "spotName": "白色教堂",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000402,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499969,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10403,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "倫敦城",
+      "originalName": "倫敦城",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010403.png",
+      "x": 1267.0,
+      "y": 557.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000403,
+          "name": "魔霧的嘲笑",
+          "originalName": "魔霧的嘲笑",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "42",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310402,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310402,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310402,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310402,
+              "type": "item",
+              "objectId": 7003,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000402,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040320",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040320.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100040330",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040330.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100040340",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040340.txt"
+                },
+                {
+                  "scriptId": "0100040341",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040341.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899942,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000406,
+          "name": "倫敦之夜",
+          "originalName": "倫敦之夜",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "44",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310405,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310405,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310405,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310405,
+              "type": "item",
+              "objectId": 6514,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000405,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040610.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040621",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040621.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100040631",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040631.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100040640",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040640.txt"
+                },
+                {
+                  "scriptId": "0100040641",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040641.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899939,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000407,
+          "name": "另一個謎題",
+          "originalName": "另一個謎題",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "46",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310406,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310406,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310406,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310406,
+              "type": "item",
+              "objectId": 6510,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000406,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040710.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040720",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040720.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100040730",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040730.txt"
+                },
+                {
+                  "scriptId": "0100040731",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040731.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899938,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000409,
+          "name": "契機",
+          "originalName": "契機",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "46",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310408,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310408,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310408,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310408,
+              "type": "item",
+              "objectId": 6510,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000408,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040910.txt"
+                },
+                {
+                  "scriptId": "0100040911",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040911.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040920",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040920.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899936,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000410,
+          "name": "絢爛蒸汽的終焉",
+          "originalName": "絢爛蒸汽的終焉",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "46",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310409,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310409,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310409,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310409,
+              "type": "item",
+              "objectId": 6510,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000409,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100041010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041010.txt"
+                },
+                {
+                  "scriptId": "0100041011",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041011.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100041020",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041020.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100041031",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041031.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100041041",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041041.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100041050",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041050.txt"
+                },
+                {
+                  "scriptId": "0100041051",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041051.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899935,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000411,
+          "name": "安格爾波達",
+          "originalName": "安格爾波達",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "48",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310410,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310410,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310410,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310410,
+              "type": "item",
+              "objectId": 6511,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000410,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100041110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100041120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100041130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100041140",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041140.txt"
+                },
+                {
+                  "scriptId": "0100041141",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041141.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899934,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000412,
+          "name": "雷電神話",
+          "originalName": "雷電神話",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "48",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310411,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310411,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310411,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310411,
+              "type": "item",
+              "objectId": 6511,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000411,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100041210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100041220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100041230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041230.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100041240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041240.txt"
+                },
+                {
+                  "scriptId": "0100041241",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041241.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899933,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000413,
+          "name": "魔霧的彼岸",
+          "originalName": "魔霧的彼岸",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "50",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/3.png",
+          "gifts": [
+            {
+              "id": 310412,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            },
+            {
+              "id": 310412,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310412,
+              "type": "item",
+              "objectId": 6511,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310412,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310412,
+              "type": "item",
+              "objectId": 80010001,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000412,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100041310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100041321",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041321.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100041330",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041330.txt"
+                },
+                {
+                  "scriptId": "0100041331",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041331.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100041340",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041340.txt"
+                },
+                {
+                  "scriptId": "0100041341",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041341.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100041350",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041350.txt"
+                },
+                {
+                  "scriptId": "0100041351",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100041351.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899932,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91102001,
+          "name": "終焉騎士",
+          "originalName": "終焉騎士",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000632,
+              "value": 0,
+              "closedMessage": "第六特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 102000,
+              "value": 2,
+              "closedMessage": "第六特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 102000,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 102000,
+              "value": 4,
+              "closedMessage": "第六特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9110200110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110200110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9110200120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110200120.txt"
+                },
+                {
+                  "scriptId": "9110200121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110200121.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 689799,
+          "noticeAt": 1560920400,
+          "openedAt": 1560920400,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91501401,
+          "name": "嘀嗒嘀嗒．砰！",
+          "originalName": "嘀嗒嘀嗒．砰！",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "50",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 501400,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 501400,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 501400,
+              "value": 4,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9150140110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150140110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9150140120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150140120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9150140130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150140130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "9150140140",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150140140.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "9150140150",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150140150.txt"
+                },
+                {
+                  "scriptId": "9150140151",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150140151.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 649859,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91501601,
+          "name": "傑羅尼莫 in 倫敦",
+          "originalName": "傑羅尼莫 in 倫敦",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "50",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000522,
+              "value": 0,
+              "closedMessage": "第五特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 501600,
+              "value": 2,
+              "closedMessage": "第五特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 501600,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 501600,
+              "value": 2,
+              "closedMessage": "第五特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9150160110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150160110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9150160120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150160120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9150160130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150160130.txt"
+                },
+                {
+                  "scriptId": "9150160131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150160131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 649839,
+          "noticeAt": 1551196800,
+          "openedAt": 1551196800,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91600701,
+          "name": "海德與傑基爾博士",
+          "originalName": "海德與傑基爾博士",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 600700,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 600700,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 600700,
+              "value": 4,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9160070110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160070110.txt"
+                },
+                {
+                  "scriptId": "9160070111",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160070111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 639929,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91700701,
+          "name": "德古拉傳奇Ⅰ",
+          "originalName": "德古拉傳奇Ⅰ",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 700700,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 700700,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 700700,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            }
+          ],
+          "releaseOverwrites": [
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 1000413,
+              "condNum": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放",
+              "overlayClosedMessage": "通關第四特異點後開放",
+              "eventId": 80376,
+              "startedAt": 1684389600,
+              "endedAt": 1688104799
+            }
+          ],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9170070110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170070110.txt"
+                },
+                {
+                  "scriptId": "9170070111",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170070111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 629929,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91700702,
+          "name": "德古拉傳奇Ⅱ",
+          "originalName": "德古拉傳奇Ⅱ",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/9.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 91700701,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 700700,
+              "value": 3,
+              "closedMessage": "靈基再臨第3階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 700700,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 700700,
+              "value": 4,
+              "closedMessage": "靈基再臨第3階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 1000413,
+              "condNum": 0,
+              "closedMessage": "靈基再臨第3階段＆羈絆Lv.4後開放",
+              "overlayClosedMessage": "通關前一幕間物語",
+              "eventId": 80376,
+              "startedAt": 1684389600,
+              "endedAt": 1688104799
+            },
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 91700701,
+              "condNum": 0,
+              "closedMessage": "",
+              "overlayClosedMessage": "通關前一幕間物語",
+              "eventId": 80376,
+              "startedAt": 1684389600,
+              "endedAt": 1688104799
+            }
+          ],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9170070210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170070210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9170070220",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170070220.txt"
+                },
+                {
+                  "scriptId": "9170070221",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170070221.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9170070230",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170070230.txt"
+                },
+                {
+                  "scriptId": "9170070231",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170070231.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 629928,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91701602,
+          "name": "修羅肉林",
+          "originalName": "修羅肉林",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91701601,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 701600,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 701600,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9170160210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170160210.txt"
+                },
+                {
+                  "scriptId": "9170160211",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170160211.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 629838,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000403,
+          "name": "倫敦金融城",
+          "originalName": "倫敦金融城",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 15,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "42",
+          "spotId": 10403,
+          "spotName": "倫敦城",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000403,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499968,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10404,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "蘇活區",
+      "originalName": "蘇活區",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010404.png",
+      "x": 625.0,
+      "y": 592.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000404,
+          "name": "一冊書，一支筆",
+          "originalName": "一冊書，一支筆",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "44",
+          "spotId": 10404,
+          "spotName": "蘇活區",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310403,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310403,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310403,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310403,
+              "type": "item",
+              "objectId": 6514,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000403,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040410.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040420",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040420.txt"
+                },
+                {
+                  "scriptId": "0100040421",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040421.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100040431",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040431.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100040440",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040440.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100040450",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040450.txt"
+                },
+                {
+                  "scriptId": "0100040451",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040451.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899941,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91500401,
+          "name": "書籍的集合，我們的集合",
+          "originalName": "書籍的集合，我們的集合",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10404,
+          "spotName": "蘇活區",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 500400,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 500400,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 500400,
+              "value": 4,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9150040110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150040110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9150040120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150040120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9150040130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150040130.txt"
+                },
+                {
+                  "scriptId": "9150040131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150040131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 649959,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000404,
+          "name": "魅惑的繁華街",
+          "originalName": "魅惑的繁華街",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 16,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "44",
+          "spotId": 10404,
+          "spotName": "蘇活區",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000404,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499967,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10405,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "威斯敏斯特",
+      "originalName": "威斯敏斯特",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010405.png",
+      "x": 605.0,
+      "y": 940.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000405,
+          "name": "混沌機械兵",
+          "originalName": "混沌機械兵",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "44",
+          "spotId": 10405,
+          "spotName": "威斯敏斯特",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310404,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310404,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310404,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310404,
+              "type": "item",
+              "objectId": 6514,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000404,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040510.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040521",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040521.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100040531",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040531.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100040540",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040540.txt"
+                },
+                {
+                  "scriptId": "0100040541",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040541.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899940,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91200202,
+          "name": "開闢之理",
+          "originalName": "開闢之理",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10405,
+          "spotName": "威斯敏斯特",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91200201,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 200200,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 200200,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 200200,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            }
+          ],
+          "releaseOverwrites": [
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 1000413,
+              "condNum": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放",
+              "overlayClosedMessage": "通關前一幕間物語＆通關第四特異點後開放",
+              "eventId": 80438,
+              "startedAt": 1743656400,
+              "endedAt": 1744261199
+            },
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 91200201,
+              "condNum": 0,
+              "closedMessage": "",
+              "overlayClosedMessage": "通關前一幕間物語＆通關第四特異點後開放",
+              "eventId": 80438,
+              "startedAt": 1743656400,
+              "endedAt": 1744261199
+            },
+            {
+              "priority": 2,
+              "condType": "questClear",
+              "condId": 1000413,
+              "condNum": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放",
+              "overlayClosedMessage": "通關前一幕間物語＆通關第四特異點後開放",
+              "eventId": 80446,
+              "startedAt": 2145888000,
+              "endedAt": 2145888000
+            },
+            {
+              "priority": 2,
+              "condType": "questClear",
+              "condId": 91200201,
+              "condNum": 0,
+              "closedMessage": "",
+              "overlayClosedMessage": "通關前一幕間物語＆通關第四特異點後開放",
+              "eventId": 80446,
+              "startedAt": 2145888000,
+              "endedAt": 2145888000
+            }
+          ],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120020210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120020210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "9120020240",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120020240.txt"
+                },
+                {
+                  "scriptId": "9120020241",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120020241.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679978,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91200502,
+          "name": "倫敦之子",
+          "originalName": "倫敦之子",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10405,
+          "spotName": "威斯敏斯特",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91200501,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 200500,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 200500,
+              "value": 4,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120050210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120050210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9120050220",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120050220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9120050230",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120050230.txt"
+                },
+                {
+                  "scriptId": "9120050231",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120050231.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679948,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000405,
+          "name": "蘇格蘭場",
+          "originalName": "蘇格蘭場",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 16,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "44",
+          "spotId": 10405,
+          "spotName": "威斯敏斯特",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000405,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499966,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10406,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "攝政公園",
+      "originalName": "攝政公園",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010406.png",
+      "x": 591.0,
+      "y": 299.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000408,
+          "name": "消亡的魔術協會",
+          "originalName": "消亡的魔術協會",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "46",
+          "spotId": 10406,
+          "spotName": "攝政公園",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310407,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310407,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310407,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310407,
+              "type": "item",
+              "objectId": 6511,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000407,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100040810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040810.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100040820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040820.txt"
+                },
+                {
+                  "scriptId": "0100040821",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040821.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100040830",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040830.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100040840",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040840.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100040850",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040850.txt"
+                },
+                {
+                  "scriptId": "0100040851",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100040851.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899937,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91201101,
+          "name": "閃電",
+          "originalName": "閃電",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10406,
+          "spotName": "攝政公園",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 201100,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 201100,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 201100,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120110110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120110110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9120110120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120110120.txt"
+                },
+                {
+                  "scriptId": "9120110121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120110121.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679889,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91501001,
+          "name": "惡魔之任務",
+          "originalName": "惡魔之任務",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "50",
+          "spotId": 10406,
+          "spotName": "攝政公園",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 501000,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 501000,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 501000,
+              "value": 4,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9150100110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150100110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9150100120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150100120.txt"
+                },
+                {
+                  "scriptId": "9150100121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9150100121.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 649899,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000406,
+          "name": "王室的狩獵場",
+          "originalName": "王室的狩獵場",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 16,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "44",
+          "spotId": 10406,
+          "spotName": "攝政公園",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000408,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499965,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10450,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "克勒肯維爾",
+      "originalName": "克勒肯維爾",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010450.png",
+      "x": 1174.0,
+      "y": 305.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 91700401,
+          "name": "11月寂寥之夜的往事Ⅰ",
+          "originalName": "11月寂寥之夜的往事Ⅰ",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10450,
+          "spotName": "克勒肯維爾",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 700400,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 700400,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 700400,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9170040110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9170040120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9170040130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040130.txt"
+                },
+                {
+                  "scriptId": "9170040131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 629959,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000407,
+          "name": "治癒之井",
+          "originalName": "治癒之井",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "60",
+          "spotId": 10450,
+          "spotName": "克勒肯維爾",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000403,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499964,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10451,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "薩瑟克",
+      "originalName": "薩瑟克",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010451.png",
+      "x": 1305.0,
+      "y": 898.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 91601803,
+          "name": "SABER SLAYER 覺醒篇",
+          "originalName": "SABER SLAYER 覺醒篇",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10451,
+          "spotName": "薩瑟克",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91601802,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 601800,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 601800,
+              "value": 5,
+              "closedMessage": "第四特異點通關＆靈基再臨第3階段＆羈絆Lv.5後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9160180310",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160180310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9160180320",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160180320.txt"
+                },
+                {
+                  "scriptId": "9160180321",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9160180321.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 639817,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91700402,
+          "name": "11月寂寥之夜的往事Ⅱ",
+          "originalName": "11月寂寥之夜的往事Ⅱ",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10451,
+          "spotName": "薩瑟克",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/9.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91700401,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 700400,
+              "value": 2,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 700400,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第2階段＆羈絆Lv.3後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9170040210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9170040220",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9170040230",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040230.txt"
+                },
+                {
+                  "scriptId": "9170040231",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9170040231.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 629958,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000408,
+          "name": "博羅市場",
+          "originalName": "博羅市場",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "64",
+          "spotId": 10451,
+          "spotName": "薩瑟克",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000403,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499963,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10452,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 104,
+      "name": "海德公園",
+      "originalName": "海德公園",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/spot_010452.png",
+      "x": 224.0,
+      "y": 697.0,
+      "imageOfsX": 7,
+      "imageOfsY": 16,
+      "nameOfsX": 0,
+      "nameOfsY": 6,
+      "questOfsX": 44,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 91100901,
+          "name": "王中王",
+          "originalName": "王中王",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10452,
+          "spotName": "海德公園",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000413,
+              "value": 0,
+              "closedMessage": "第四特異點通關＆靈基再臨第1階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 100900,
+              "value": 1,
+              "closedMessage": "第四特異點通關＆靈基再臨第1階段＆羈絆Lv.3後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 100900,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 100900,
+              "value": 3,
+              "closedMessage": "第四特異點通關＆靈基再臨第1階段＆羈絆Lv.3後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9110090110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110090110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9110090120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110090120.txt"
+                },
+                {
+                  "scriptId": "9110090121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9110090121.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 689909,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000409,
+          "name": "水晶宮的殘影",
+          "originalName": "水晶宮的殘影",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "68",
+          "spotId": 10452,
+          "spotName": "海德公園",
+          "warId": 104,
+          "warLongName": "第四特異點\n死界魔霧都市 倫敦",
+          "chapterId": 4,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 93000404,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499962,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    }
+  ],
+  "spotRoads": [
+    {
+      "id": 10401,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10401,
+      "dstSpotId": 10402,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000401,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000401,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10402,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10402,
+      "dstSpotId": 10403,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000402,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000402,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10403,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10403,
+      "dstSpotId": 10450,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000403,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000403,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10404,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10403,
+      "dstSpotId": 10451,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000403,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000403,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10405,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10403,
+      "dstSpotId": 10404,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000403,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000403,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10406,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10404,
+      "dstSpotId": 10405,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000404,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000404,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10407,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10404,
+      "dstSpotId": 10406,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000407,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000407,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10408,
+      "warId": 104,
+      "mapId": 104,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0104/QMap_Cap0104_Atlas/img_road0104_00.png",
+      "srcSpotId": 10404,
+      "dstSpotId": 10452,
+      "dispCondType": "itemGet",
+      "dispTargetId": 93000404,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 93000404,
+      "activeTargetValue": 0
+    }
+  ],
+  "questSelections": []
+}

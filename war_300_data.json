@@ -1,0 +1,696 @@
+{
+  "id": 300,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "序／2018年 12月26日",
+  "originalName": "序／2018年 12月26日",
+  "longName": "序／2018年 12月26日",
+  "originalLongName": "序／2018年 12月26日",
+  "flags": [
+    "closeAfterClear",
+    "mainScenario",
+    "isWarIconLeft",
+    "clearedReturnToTitle"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap300.png",
+  "priority": 300,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 0,
+    "name": "",
+    "originalName": "",
+    "fileName": "",
+    "notReleased": true
+  },
+  "scriptId": "0",
+  "script": "https://static.atlasacademy.io/TW/Script/0/0.txt",
+  "startType": "none",
+  "targetId": 0,
+  "eventId": 0,
+  "eventName": "",
+  "lastQuestId": 3000008,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 300,
+      "type": "longName",
+      "priority": 1,
+      "overwriteId": 0,
+      "overwriteStr": "序／2018年 12月31日",
+      "condType": "none",
+      "targetId": 3000003,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 300,
+      "type": "name",
+      "priority": 1,
+      "overwriteId": 0,
+      "overwriteStr": "序／2018年 12月31日",
+      "condType": "none",
+      "targetId": 3000003,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 300,
+      "type": "banner",
+      "priority": 1,
+      "overwriteId": 30002,
+      "overwriteStr": "",
+      "overwriteBanner": "https://static.atlasacademy.io/TW/Banner/questboard_cap30002.png",
+      "condType": "none",
+      "targetId": 3000003,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 300,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 13000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 300,
+      "type": "name",
+      "priority": 2,
+      "overwriteId": 0,
+      "overwriteStr": "序／2018年 12月31日",
+      "condType": "questClear",
+      "targetId": 3000003,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 300,
+      "type": "banner",
+      "priority": 2,
+      "overwriteId": 30002,
+      "overwriteStr": "",
+      "overwriteBanner": "https://static.atlasacademy.io/TW/Banner/questboard_cap30002.png",
+      "condType": "questClear",
+      "targetId": 3000003,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 300,
+      "type": "longName",
+      "priority": 2,
+      "overwriteId": 0,
+      "overwriteStr": "序／2018年 12月31日",
+      "condType": "questClear",
+      "targetId": 3000003,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    }
+  ],
+  "maps": [
+    {
+      "id": 300,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000300/img_questmap_000300.png",
+      "mapImageW": 0,
+      "mapImageH": 0,
+      "mapGimmicks": [],
+      "bgm": {
+        "id": 0,
+        "name": "",
+        "originalName": "",
+        "fileName": "",
+        "notReleased": true
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 30001,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 300,
+      "name": "第二部序章",
+      "originalName": "第二部序章",
+      "x": 0.0,
+      "y": 0.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 3000001,
+          "name": "序／2018年 12月26日",
+          "originalName": "序／2018年 12月26日",
+          "type": "main",
+          "flags": [
+            "noBattle",
+            "noDisplayRemain"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000822,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000110",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000110.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900099,
+          "noticeAt": 1564117200,
+          "openedAt": 1564117200,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 3000002,
+          "name": "序／2018年 12月26日",
+          "originalName": "序／2018年 12月26日",
+          "type": "main",
+          "flags": [
+            "noBattle",
+            "noDisplayRemain"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3000001,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000210",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000210.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900098,
+          "noticeAt": 1564117200,
+          "openedAt": 1564117200,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 3000003,
+          "name": "序／2018年 12月31日",
+          "originalName": "序／2018年 12月31日",
+          "type": "main",
+          "flags": [
+            "noBattle",
+            "noDisplayRemain"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3000002,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": "{0}月{1}日{2:D2}時{3:D2}分 開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000310",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000310.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900097,
+          "noticeAt": 1564117200,
+          "openedAt": 1564560000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 3000004,
+          "name": "序／2018年 12月31日",
+          "originalName": "序／2018年 12月31日",
+          "type": "main",
+          "flags": [
+            "noDisplayRemain",
+            "supportOnlyForceBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3000003,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000410",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000410.txt"
+                },
+                {
+                  "scriptId": "0300000411",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000411.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900096,
+          "noticeAt": 1564117200,
+          "openedAt": 1564560000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 3000005,
+          "name": "序／2018年 12月31日",
+          "originalName": "序／2018年 12月31日",
+          "type": "main",
+          "flags": [
+            "noDisplayRemain",
+            "supportOnlyForceBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3000004,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000510",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000510.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900095,
+          "noticeAt": 1564117200,
+          "openedAt": 1564560000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 3000006,
+          "name": "序／2018年 12月31日",
+          "originalName": "序／2018年 12月31日",
+          "type": "main",
+          "flags": [
+            "noDisplayRemain",
+            "supportOnlyForceBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3000005,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000610",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000610.txt"
+                },
+                {
+                  "scriptId": "0300000611",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000611.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900094,
+          "noticeAt": 1564117200,
+          "openedAt": 1564560000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 3000007,
+          "name": "序／2018年 12月31日",
+          "originalName": "序／2018年 12月31日",
+          "type": "main",
+          "flags": [
+            "noDisplayRemain",
+            "supportOnlyForceBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3000006,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000710",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000710.txt"
+                },
+                {
+                  "scriptId": "0300000711",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000711.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900093,
+          "noticeAt": 1564117200,
+          "openedAt": 1564560000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 3000008,
+          "name": "人類未踏之旅",
+          "originalName": "人類未踏之旅",
+          "type": "main",
+          "flags": [
+            "noBattle",
+            "noDisplayRemain"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 30001,
+          "spotName": "第二部序章",
+          "warId": 300,
+          "warLongName": "序／2018年 12月26日",
+          "chapterId": 301,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 3000007,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0300000810",
+                  "script": "https://static.atlasacademy.io/TW/Script/03/0300000810.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 900092,
+          "noticeAt": 1564117200,
+          "openedAt": 1564560000,
+          "closedAt": 2145888000
+        }
+      ]
+    }
+  ],
+  "spotRoads": [],
+  "questSelections": []
+}

@@ -1,0 +1,5457 @@
+{
+  "id": 106,
+  "coordinates": [
+    [
+      27.8192,
+      29.26513
+    ],
+    []
+  ],
+  "age": "AD:1273",
+  "name": "第六特異點",
+  "originalName": "第六特異點",
+  "longName": "第六特異點\n神聖圓桌領域 卡美洛",
+  "originalLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+  "flags": [
+    "withMap",
+    "mainScenario"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap106.png",
+  "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_11.png",
+  "priority": 106,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 63,
+    "name": "神聖圓桌領域：\n卡美洛Ⅰ",
+    "originalName": "神聖圓桌領域：\n卡美洛Ⅰ",
+    "fileName": "BGM_MAP_10",
+    "notReleased": false,
+    "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_10/BGM_MAP_10.mp3"
+  },
+  "scriptId": "0100060010",
+  "script": "https://static.atlasacademy.io/TW/Script/01/0100060010.txt",
+  "startType": "script",
+  "targetId": 100060010,
+  "eventId": 0,
+  "eventName": "",
+  "lastQuestId": 1000632,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 106,
+      "type": "bgm",
+      "priority": 0,
+      "overwriteId": 64,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 1000605,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 106,
+      "type": "bgm",
+      "priority": 1,
+      "overwriteId": 65,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 1000627,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 106,
+      "type": "parentWar",
+      "priority": 1,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 106,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    }
+  ],
+  "maps": [
+    {
+      "id": 106,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000106/img_questmap_000106.png",
+      "mapImageW": 1920,
+      "mapImageH": 1240,
+      "mapGimmicks": [
+        {
+          "id": 10601,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010601.png",
+          "x": 997,
+          "y": 601,
+          "depthOffset": 11,
+          "scale": 2000,
+          "dispCondType": "useItemEternity",
+          "dispTargetId": 1000604,
+          "dispTargetValue": 0,
+          "dispCondType2": "questClear",
+          "dispTargetId2": 0,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10602,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010602.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 13,
+          "scale": 2000,
+          "dispCondType": "useItemEternity",
+          "dispTargetId": 1000605,
+          "dispTargetValue": 0,
+          "dispCondType2": "questClear",
+          "dispTargetId2": 0,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10603,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010603.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 15,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000605,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000619,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10604,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010604.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 3,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000619,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000629,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10605,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010605.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000629,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000631,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10606,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010606.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 10,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000631,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000632,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10607,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010607.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 3,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000619,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000629,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10608,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010608.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 5,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000629,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000631,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10609,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/gimmick_010609.png",
+          "x": 960,
+          "y": 620,
+          "depthOffset": 10,
+          "scale": 2000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000631,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000632,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        }
+      ],
+      "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_11.png",
+      "bgm": {
+        "id": 63,
+        "name": "神聖圓桌領域：\n卡美洛Ⅰ",
+        "originalName": "神聖圓桌領域：\n卡美洛Ⅰ",
+        "fileName": "BGM_MAP_10",
+        "notReleased": false,
+        "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_10/BGM_MAP_10.mp3"
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 10601,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "沙塵暴的沙漠",
+      "originalName": "沙塵暴的沙漠",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010601.png",
+      "x": 647.0,
+      "y": 864.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 38,
+      "questOfsY": -66,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000601,
+          "name": "砂之洗禮（1/2）",
+          "originalName": "砂之洗禮（1/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "62",
+          "spotId": 10601,
+          "spotName": "沙塵暴的沙漠",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310600,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310600,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310600,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310600,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000522,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100060120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060120.txt"
+                },
+                {
+                  "scriptId": "0100060121",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060121.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899909,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000621,
+          "name": "前往阿特拉斯的沙漠（2/3）",
+          "originalName": "前往阿特拉斯的沙漠（2/3）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "67",
+          "spotId": 10601,
+          "spotName": "沙塵暴的沙漠",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310620,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310620,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310620,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310620,
+              "type": "item",
+              "objectId": 6523,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000620,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062110.txt"
+                },
+                {
+                  "scriptId": "0100062111",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899889,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000601,
+          "name": "神獸之庭",
+          "originalName": "神獸之庭",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "62",
+          "spotId": 10601,
+          "spotName": "沙塵暴的沙漠",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000601,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499947,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10602,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "斷界的沙漠",
+      "originalName": "斷界的沙漠",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010602.png",
+      "x": 538.0,
+      "y": 897.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 36,
+      "questOfsY": -49,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000602,
+          "name": "砂之洗禮（2/2）",
+          "originalName": "砂之洗禮（2/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "62",
+          "spotId": 10602,
+          "spotName": "斷界的沙漠",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310601,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310601,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310601,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310601,
+              "type": "item",
+              "objectId": 6525,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000601,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100060220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060220.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100060230",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060230.txt"
+                },
+                {
+                  "scriptId": "0100060231",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060231.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899908,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000603,
+          "name": "太陽王的晚餐（1/2）",
+          "originalName": "太陽王的晚餐（1/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "62",
+          "spotId": 10602,
+          "spotName": "斷界的沙漠",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310602,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310602,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310602,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310602,
+              "type": "item",
+              "objectId": 6525,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000602,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100060320",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060320.txt"
+                },
+                {
+                  "scriptId": "0100060321",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060321.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899907,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10603,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "大神殿",
+      "originalName": "大神殿",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010603.png",
+      "x": 429.0,
+      "y": 930.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 41,
+      "questOfsY": -90,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000604,
+          "name": "太陽王的晚餐（2/2）",
+          "originalName": "太陽王的晚餐（2/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "62",
+          "spotId": 10603,
+          "spotName": "大神殿",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310603,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310603,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310603,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310603,
+              "type": "item",
+              "objectId": 6523,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000603,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060410.txt"
+                },
+                {
+                  "scriptId": "0100060411",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060411.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100060420",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060420.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899906,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000626,
+          "name": "神王奧茲曼迪亞斯（3/3）",
+          "originalName": "神王奧茲曼迪亞斯（3/3）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "68",
+          "spotId": 10603,
+          "spotName": "大神殿",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 15,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/3.png",
+          "gifts": [
+            {
+              "id": 310625,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310625,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310625,
+              "type": "item",
+              "objectId": 6525,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310625,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000625,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062610.txt"
+                },
+                {
+                  "scriptId": "0100062611",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062611.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100062620",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062620.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100062630",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062630.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100062640",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062640.txt"
+                },
+                {
+                  "scriptId": "0100062641",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062641.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899884,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000610,
+          "name": "太陽王的居城",
+          "originalName": "太陽王的居城",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "84",
+          "spotId": 10603,
+          "spotName": "大神殿",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000626,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499938,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10604,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "黎明的沙丘",
+      "originalName": "黎明的沙丘",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010604.png",
+      "x": 857.0,
+      "y": 777.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -10,
+      "questOfsX": 37,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000605,
+          "name": "東行（1/2）",
+          "originalName": "東行（1/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "62",
+          "spotId": 10604,
+          "spotName": "黎明的沙丘",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310604,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310604,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310604,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310604,
+              "type": "item",
+              "objectId": 6518,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000604,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060510.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899905,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000602,
+          "name": "灼熱之巔",
+          "originalName": "灼熱之巔",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "62",
+          "spotId": 10604,
+          "spotName": "黎明的沙丘",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000605,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499946,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10605,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "死之荒野",
+      "originalName": "死之荒野",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010605.png",
+      "x": 1139.0,
+      "y": 635.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -2,
+      "questOfsX": 37,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000606,
+          "name": "東行（2/2）",
+          "originalName": "東行（2/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "63",
+          "spotId": 10605,
+          "spotName": "死之荒野",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310605,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310605,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310605,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310605,
+              "type": "item",
+              "objectId": 6522,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000605,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060610.txt"
+                },
+                {
+                  "scriptId": "0100060611",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060611.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100060620",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060620.txt"
+                },
+                {
+                  "scriptId": "0100060621",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060621.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100060631",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060631.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899904,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000608,
+          "name": "敗走（1/2）",
+          "originalName": "敗走（1/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "63",
+          "spotId": 10605,
+          "spotName": "死之荒野",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310607,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310607,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310607,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310607,
+              "type": "item",
+              "objectId": 6522,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000607,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060810.txt"
+                },
+                {
+                  "scriptId": "0100060811",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060811.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100060820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060820.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100060830",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060830.txt"
+                },
+                {
+                  "scriptId": "0100060831",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060831.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899902,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000620,
+          "name": "前往阿特拉斯的沙漠（1/3）",
+          "originalName": "前往阿特拉斯的沙漠（1/3）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "67",
+          "spotId": 10605,
+          "spotName": "死之荒野",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310619,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310619,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310619,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310619,
+              "type": "item",
+              "objectId": 6522,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000619,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062010.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899890,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000603,
+          "name": "熱血沸騰的狂宴",
+          "originalName": "熱血沸騰的狂宴",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "64",
+          "spotId": 10605,
+          "spotName": "死之荒野",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000606,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499945,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10606,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "聖都正門",
+      "originalName": "聖都正門",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010606.png",
+      "x": 1444.0,
+      "y": 693.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -11,
+      "questOfsX": 39,
+      "questOfsY": -86,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000607,
+          "name": "嘆息之壁",
+          "originalName": "嘆息之壁",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "63",
+          "spotId": 10606,
+          "spotName": "聖都正門",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310606,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310606,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310606,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310606,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000606,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060710.txt"
+                },
+                {
+                  "scriptId": "0100060711",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060711.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100060720",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060720.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100060730",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060730.txt"
+                },
+                {
+                  "scriptId": "0100060731",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060731.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100060740",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060740.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100060750",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060750.txt"
+                },
+                {
+                  "scriptId": "0100060751",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060751.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899903,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000628,
+          "name": "複製品（1/5）",
+          "originalName": "複製品（1/5）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "69",
+          "spotId": 10606,
+          "spotName": "聖都正門",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 17,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310627,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310627,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310627,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310627,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000627,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062810.txt"
+                },
+                {
+                  "scriptId": "0100062811",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062811.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100062820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062820.txt"
+                },
+                {
+                  "scriptId": "0100062821",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062821.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899882,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000611,
+          "name": "祝聖之門",
+          "originalName": "祝聖之門",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "70",
+          "spotId": 10606,
+          "spotName": "聖都正門",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000628,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499937,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10607,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "山麓",
+      "originalName": "山麓",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010607.png",
+      "x": 1101.0,
+      "y": 484.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 36,
+      "questOfsY": -49,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000609,
+          "name": "敗走（2/2）",
+          "originalName": "敗走（2/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "63",
+          "spotId": 10607,
+          "spotName": "山麓",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310608,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310608,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310608,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310608,
+              "type": "item",
+              "objectId": 6520,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000608,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100060910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060910.txt"
+                },
+                {
+                  "scriptId": "0100060911",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100060911.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899901,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10608,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "東之村",
+      "originalName": "東之村",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010608.png",
+      "x": 1063.0,
+      "y": 333.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 38,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000610,
+          "name": "東之村的冒險",
+          "originalName": "東之村的冒險",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "64",
+          "spotId": 10608,
+          "spotName": "東之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310609,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310609,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310609,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310609,
+              "type": "item",
+              "objectId": 7001,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000609,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061010.txt"
+                },
+                {
+                  "scriptId": "0100061011",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061011.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061020",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061020.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100061031",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061031.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100061040",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061040.txt"
+                },
+                {
+                  "scriptId": "0100061041",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061041.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899900,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000617,
+          "name": "告示死亡之喪鐘（1/2）",
+          "originalName": "告示死亡之喪鐘（1/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "66",
+          "spotId": 10608,
+          "spotName": "東之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310616,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310616,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310616,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310616,
+              "type": "item",
+              "objectId": 6523,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000616,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061710.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061720",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061720.txt"
+                },
+                {
+                  "scriptId": "0100061721",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061721.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899893,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000619,
+          "name": "炎之村",
+          "originalName": "炎之村",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "66",
+          "spotId": 10608,
+          "spotName": "東之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310618,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310618,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310618,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310618,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000618,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061910.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061920",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061920.txt"
+                },
+                {
+                  "scriptId": "0100061921",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061921.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100061930",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061930.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100061940",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061940.txt"
+                }
+              ]
+            },
+            {
+              "phase": 5,
+              "scripts": [
+                {
+                  "scriptId": "0100061950",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061950.txt"
+                },
+                {
+                  "scriptId": "0100061951",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061951.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899891,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000627,
+          "name": "決戰前夜",
+          "originalName": "決戰前夜",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "68",
+          "spotId": 10608,
+          "spotName": "東之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 16,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310626,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310626,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310626,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310626,
+              "type": "item",
+              "objectId": 6523,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000626,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062710.txt"
+                },
+                {
+                  "scriptId": "0100062711",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062711.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899883,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91200601,
+          "name": "大衛與歌利亞",
+          "originalName": "大衛與歌利亞",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 17,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "50",
+          "spotId": 10608,
+          "spotName": "東之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 201,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000822,
+              "value": 0,
+              "closedMessage": "終局特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 200600,
+              "value": 2,
+              "closedMessage": "終局特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 200600,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 200600,
+              "value": 2,
+              "closedMessage": "終局特異點通關＆靈基再臨第2階段＆羈絆Lv.2後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120060110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120060110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9120060120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120060120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9120060130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120060130.txt"
+                },
+                {
+                  "scriptId": "9120060131",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120060131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679939,
+          "noticeAt": 1551196800,
+          "openedAt": 1551196800,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000604,
+          "name": "已然枯萎的山脊",
+          "originalName": "已然枯萎的山脊",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "64",
+          "spotId": 10608,
+          "spotName": "東之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000610,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499944,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10609,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "西之村",
+      "originalName": "西之村",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010609.png",
+      "x": 676.0,
+      "y": 330.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 38,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000611,
+          "name": "游擊騎士莫德雷德",
+          "originalName": "游擊騎士莫德雷德",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "64",
+          "spotId": 10609,
+          "spotName": "西之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310610,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310610,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310610,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310610,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000610,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061120.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100061130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100061140",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061140.txt"
+                },
+                {
+                  "scriptId": "0100061141",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061141.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899899,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000616,
+          "name": "宴會，西之村（2/2）",
+          "originalName": "宴會，西之村（2/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "65",
+          "spotId": 10609,
+          "spotName": "西之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310615,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310615,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310615,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310615,
+              "type": "item",
+              "objectId": 6522,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000615,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061610.txt"
+                },
+                {
+                  "scriptId": "0100061611",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061611.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061620",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061620.txt"
+                },
+                {
+                  "scriptId": "0100061621",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061621.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899894,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10610,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "近道",
+      "originalName": "近道",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010610.png",
+      "x": 742.0,
+      "y": 410.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 36,
+      "questOfsY": -49,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000612,
+          "name": "星之三藏醬，自天竺歸來（1/2）",
+          "originalName": "星之三藏醬，自天竺歸來（1/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "64",
+          "spotId": 10610,
+          "spotName": "近道",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310611,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310611,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310611,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310611,
+              "type": "item",
+              "objectId": 6522,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000611,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061210.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899898,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10611,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "要塞內",
+      "originalName": "要塞內",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010611.png",
+      "x": 799.0,
+      "y": 475.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 36,
+      "questOfsY": -49,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000613,
+          "name": "星之三藏醬，自天竺歸來（2/2）",
+          "originalName": "星之三藏醬，自天竺歸來（2/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "65",
+          "spotId": 10611,
+          "spotName": "要塞內",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310612,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310612,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310612,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310612,
+              "type": "item",
+              "objectId": 6522,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000612,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061310.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061320",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061320.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100061330",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061330.txt"
+                },
+                {
+                  "scriptId": "0100061331",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061331.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899897,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10612,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "圓桌要塞",
+      "originalName": "圓桌要塞",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010612.png",
+      "x": 873.0,
+      "y": 557.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -64,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000614,
+          "name": "毒花，鐵劍",
+          "originalName": "毒花，鐵劍",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "65",
+          "spotId": 10612,
+          "spotName": "圓桌要塞",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310613,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310613,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310613,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310613,
+              "type": "item",
+              "objectId": 6522,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000613,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061410.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061420",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061420.txt"
+                },
+                {
+                  "scriptId": "0100061421",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061421.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100061430",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061430.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100061440",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061440.txt"
+                },
+                {
+                  "scriptId": "0100061441",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061441.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899896,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000615,
+          "name": "宴會，西之村（1/2）",
+          "originalName": "宴會，西之村（1/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "65",
+          "spotId": 10612,
+          "spotName": "圓桌要塞",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310614,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310614,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310614,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310614,
+              "type": "item",
+              "objectId": 6518,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000614,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061510.txt"
+                },
+                {
+                  "scriptId": "0100061511",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061511.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899895,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000605,
+          "name": "游擊騎士隊",
+          "originalName": "游擊騎士隊",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "66",
+          "spotId": 10612,
+          "spotName": "圓桌要塞",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000615,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499943,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10613,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "晚鐘廟",
+      "originalName": "晚鐘廟",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010613.png",
+      "x": 935.0,
+      "y": 223.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 40,
+      "questOfsY": -73,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000618,
+          "name": "告示死亡之喪鐘（2/2）",
+          "originalName": "告示死亡之喪鐘（2/2）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "66",
+          "spotId": 10613,
+          "spotName": "晚鐘廟",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310617,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310617,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310617,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310617,
+              "type": "item",
+              "objectId": 6517,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000617,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100061810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061810.txt"
+                },
+                {
+                  "scriptId": "0100061811",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061811.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100061820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061820.txt"
+                },
+                {
+                  "scriptId": "0100061821",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100061821.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899892,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000606,
+          "name": "宣告死亡的天使",
+          "originalName": "宣告死亡的天使",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 19,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "66",
+          "spotId": 10613,
+          "spotName": "晚鐘廟",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000618,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499942,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10614,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "西之村遺跡",
+      "originalName": "西之村遺跡",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010614.png",
+      "x": 676.0,
+      "y": 330.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 38,
+      "questOfsY": -56,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000607,
+          "name": "無情的殘影",
+          "originalName": "無情的殘影",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "66",
+          "spotId": 10614,
+          "spotName": "西之村遺跡",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000619,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499941,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10615,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "神秘沙漠",
+      "originalName": "神秘沙漠",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010615.png",
+      "x": 380.0,
+      "y": 671.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -5,
+      "questOfsX": 37,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000622,
+          "name": "前往阿特拉斯的沙漠（3/3）",
+          "originalName": "前往阿特拉斯的沙漠（3/3）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "67",
+          "spotId": 10615,
+          "spotName": "神秘沙漠",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310621,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310621,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310621,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310621,
+              "type": "item",
+              "objectId": 6523,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000621,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062210.txt"
+                },
+                {
+                  "scriptId": "0100062211",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062211.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100062220",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062220.txt"
+                },
+                {
+                  "scriptId": "0100062221",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062221.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899888,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10616,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "阿特拉斯院",
+      "originalName": "阿特拉斯院",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010616.png",
+      "x": 380.0,
+      "y": 671.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -5,
+      "questOfsX": 37,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000623,
+          "name": "秘匿的研究",
+          "originalName": "秘匿的研究",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "67",
+          "spotId": 10616,
+          "spotName": "阿特拉斯院",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 14,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/3.png",
+          "gifts": [
+            {
+              "id": 310622,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310622,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310622,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310622,
+              "type": "item",
+              "objectId": 6506,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310622,
+              "type": "item",
+              "objectId": 80010001,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000622,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062310.txt"
+                },
+                {
+                  "scriptId": "0100062311",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062311.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100062320",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062320.txt"
+                },
+                {
+                  "scriptId": "0100062321",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062321.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100062330",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062330.txt"
+                },
+                {
+                  "scriptId": "0100062331",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062331.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100062340",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062340.txt"
+                },
+                {
+                  "scriptId": "0100062341",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062341.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899887,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000624,
+          "name": "神王奧茲曼迪亞斯（1/3）",
+          "originalName": "神王奧茲曼迪亞斯（1/3）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "68",
+          "spotId": 10616,
+          "spotName": "阿特拉斯院",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 15,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310623,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310623,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310623,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310623,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000623,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062410.txt"
+                },
+                {
+                  "scriptId": "0100062411",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062411.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899886,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000608,
+          "name": "巨人的地窖",
+          "originalName": "巨人的地窖",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "68",
+          "spotId": 10616,
+          "spotName": "阿特拉斯院",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000624,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499940,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10617,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "隱秘之村",
+      "originalName": "隱秘之村",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010617.png",
+      "x": 400.0,
+      "y": 468.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 37,
+      "questOfsY": -64,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000625,
+          "name": "神王奧茲曼迪亞斯（2/3）",
+          "originalName": "神王奧茲曼迪亞斯（2/3）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "68",
+          "spotId": 10617,
+          "spotName": "隱秘之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 15,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310624,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310624,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310624,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310624,
+              "type": "item",
+              "objectId": 6525,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000624,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062510.txt"
+                },
+                {
+                  "scriptId": "0100062511",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062511.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100062520",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062520.txt"
+                },
+                {
+                  "scriptId": "0100062521",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062521.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899885,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000609,
+          "name": "夢幻的海市蜃樓",
+          "originalName": "夢幻的海市蜃樓",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "78",
+          "spotId": 10617,
+          "spotName": "隱秘之村",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000625,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499939,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10618,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "聖都市街",
+      "originalName": "聖都市街",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010618.png",
+      "x": 1340.0,
+      "y": 787.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -8,
+      "questOfsX": 37,
+      "questOfsY": -70,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [
+        {
+          "priority": 1,
+          "overrideType": "namePanelOffsetX",
+          "targetId": -22,
+          "targetText": "",
+          "condType": "questClear",
+          "condTargetId": 1000630,
+          "condNum": 0
+        }
+      ],
+      "quests": [
+        {
+          "id": 1000629,
+          "name": "複製品（2/5）",
+          "originalName": "複製品（2/5）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "69",
+          "spotId": 10618,
+          "spotName": "聖都市街",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 17,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310628,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310628,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310628,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            },
+            {
+              "id": 310628,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 2,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000628,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100062910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062910.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100062920",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100062920.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899881,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000630,
+          "name": "複製品（3/5）",
+          "originalName": "複製品（3/5）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "69",
+          "spotId": 10618,
+          "spotName": "聖都市街",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 17,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310629,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310629,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310629,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            },
+            {
+              "id": 310629,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000629,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100063010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063010.txt"
+                },
+                {
+                  "scriptId": "0100063011",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063011.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100063020",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063020.txt"
+                },
+                {
+                  "scriptId": "0100063021",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063021.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899880,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91200801,
+          "name": "因失去而起始之物",
+          "originalName": "因失去而起始之物",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10618,
+          "spotName": "聖都市街",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 1,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000822,
+              "value": 0,
+              "closedMessage": "終局特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 200800,
+              "value": 2,
+              "closedMessage": "終局特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            },
+            {
+              "type": "svtGet",
+              "targetId": 200800,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 200800,
+              "value": 4,
+              "closedMessage": "終局特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放"
+            }
+          ],
+          "releaseOverwrites": [
+            {
+              "priority": 1,
+              "condType": "questClear",
+              "condId": 1000822,
+              "condNum": 0,
+              "closedMessage": "終局特異點通關＆靈基再臨第2階段＆羈絆Lv.4後開放",
+              "overlayClosedMessage": "通關終局特異點後開放",
+              "eventId": 80411,
+              "startedAt": 1726722000,
+              "endedAt": 1727931599
+            }
+          ],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9120080110",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120080110.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "9120080120",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120080120.txt"
+                },
+                {
+                  "scriptId": "9120080121",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120080121.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "9120080130",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120080130.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "9120080140",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120080140.txt"
+                },
+                {
+                  "scriptId": "9120080141",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9120080141.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 679919,
+          "noticeAt": 1560920400,
+          "openedAt": 1560920400,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 91400202,
+          "name": "遠征永無終結",
+          "originalName": "遠征永無終結",
+          "type": "friendship",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 18,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "60",
+          "spotId": 10618,
+          "spotName": "聖都市街",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 1,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/8.png",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000632,
+              "value": 0,
+              "closedMessage": "第六特異點通關＆靈基再臨第1階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "questClear",
+              "targetId": 91400201,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "svtLimit",
+              "targetId": 400200,
+              "value": 1,
+              "closedMessage": "第六特異點通關＆靈基再臨第1階段＆羈絆Lv.2後開放"
+            },
+            {
+              "type": "svtFriendship",
+              "targetId": 400200,
+              "value": 2,
+              "closedMessage": "第六特異點通關＆靈基再臨第1階段＆羈絆Lv.2後開放"
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9140020210",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9140020210.txt"
+                },
+                {
+                  "scriptId": "9140020211",
+                  "script": "https://static.atlasacademy.io/TW/Script/91/9140020211.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 659978,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000612,
+          "name": "理想都市",
+          "originalName": "理想都市",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 20,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "70",
+          "spotId": 10618,
+          "spotName": "聖都市街",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000630,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499936,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10619,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "王城",
+      "originalName": "王城",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010619.png",
+      "x": 1457.0,
+      "y": 855.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 38,
+      "questOfsY": -90,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000631,
+          "name": "複製品（4/5）",
+          "originalName": "複製品（4/5）",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10619,
+          "spotName": "王城",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 17,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310630,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310630,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310630,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310630,
+              "type": "item",
+              "objectId": 6524,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000630,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100063110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063110.txt"
+                },
+                {
+                  "scriptId": "0100063111",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063111.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100063120",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063120.txt"
+                },
+                {
+                  "scriptId": "0100063121",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063121.txt"
+                }
+              ]
+            },
+            {
+              "phase": 3,
+              "scripts": [
+                {
+                  "scriptId": "0100063130",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063130.txt"
+                },
+                {
+                  "scriptId": "0100063131",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063131.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899879,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000632,
+          "name": "複製品（5/5）",
+          "originalName": "複製品（5/5）",
+          "type": "main",
+          "flags": [
+            "noDisplayMissionNotify",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "70",
+          "spotId": 10619,
+          "spotName": "王城",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 17,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310631,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            },
+            {
+              "id": 310631,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310631,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310631,
+              "type": "item",
+              "objectId": 6506,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000631,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100063210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063210.txt"
+                },
+                {
+                  "scriptId": "0100063211",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100063211.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899878,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93000613,
+          "name": "千年王國",
+          "originalName": "千年王國",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 21,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "80",
+          "spotId": 10619,
+          "spotName": "王城",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000632,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499935,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10620,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "無之大地",
+      "originalName": "無之大地",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010620.png",
+      "x": 1455.0,
+      "y": 450.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 37,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93000614,
+          "name": "荒涼世界",
+          "originalName": "荒涼世界",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "ap",
+          "consume": 22,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "82",
+          "spotId": 10620,
+          "spotName": "無之大地",
+          "warId": 106,
+          "warLongName": "第六特異點\n神聖圓桌領域 卡美洛",
+          "chapterId": 6,
+          "chapterSubId": 14,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/6.png",
+          "gifts": [
+            {
+              "id": 101,
+              "type": "item",
+              "objectId": 2,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 93000611,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 499934,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10621,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 106,
+      "name": "鏡頭用",
+      "originalName": "鏡頭用",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/spot_010621.png",
+      "x": 1920.0,
+      "y": 1240.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 37,
+      "questOfsY": -65,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    }
+  ],
+  "spotRoads": [
+    {
+      "id": 10601,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10601,
+      "dstSpotId": 10602,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000601,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000601,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10602,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10602,
+      "dstSpotId": 10603,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000603,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000603,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10603,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10601,
+      "dstSpotId": 10604,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000604,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000604,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10604,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10604,
+      "dstSpotId": 10605,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000605,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000605,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10605,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10605,
+      "dstSpotId": 10606,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000606,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000606,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10606,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10605,
+      "dstSpotId": 10607,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000608,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000608,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10607,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10607,
+      "dstSpotId": 10608,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000609,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000609,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10608,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10608,
+      "dstSpotId": 10609,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000610,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000610,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10609,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10609,
+      "dstSpotId": 10612,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000611,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000611,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10610,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10608,
+      "dstSpotId": 10613,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000617,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000617,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10611,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10601,
+      "dstSpotId": 10615,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000621,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000621,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10612,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10616,
+      "dstSpotId": 10617,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000624,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000624,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10613,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10616,
+      "dstSpotId": 10603,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000625,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000625,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10614,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10606,
+      "dstSpotId": 10618,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000628,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000628,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10616,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10618,
+      "dstSpotId": 10619,
+      "dispCondType": "itemGet",
+      "dispTargetId": 1000630,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 1000630,
+      "activeTargetValue": 0
+    },
+    {
+      "id": 10617,
+      "warId": 106,
+      "mapId": 106,
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0106/QMap_Cap0106_Atlas/img_road0106_00.png",
+      "srcSpotId": 10606,
+      "dstSpotId": 10620,
+      "dispCondType": "itemGet",
+      "dispTargetId": 93000611,
+      "dispTargetValue": 0,
+      "dispCondType2": "questClear",
+      "dispTargetId2": 0,
+      "dispTargetValue2": 0,
+      "activeCondType": "itemGet",
+      "activeTargetId": 93000611,
+      "activeTargetValue": 0
+    }
+  ],
+  "questSelections": []
+}

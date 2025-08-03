@@ -1,0 +1,3192 @@
+{
+  "id": 108,
+  "coordinates": [],
+  "age": "AD:2017",
+  "name": "終局特異點",
+  "originalName": "終局特異點",
+  "longName": "終局特異點\n冠位時間神殿 所羅門",
+  "originalLongName": "終局特異點\n冠位時間神殿 所羅門",
+  "flags": [
+    "withMap",
+    "closeAfterClear",
+    "mainScenario",
+    "clearedReturnToTitle"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap108.png",
+  "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_13.png",
+  "priority": 108,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 114,
+    "name": "冠位時間神殿：\n所羅門",
+    "originalName": "冠位時間神殿：\n所羅門",
+    "fileName": "BGM_MAP_20",
+    "notReleased": false,
+    "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_20/BGM_MAP_20.mp3"
+  },
+  "scriptId": "0100080010",
+  "script": "https://static.atlasacademy.io/TW/Script/01/0100080010.txt",
+  "startType": "script",
+  "targetId": 100080010,
+  "eventId": 80038,
+  "eventName": "終局特異點 冠位時間神殿 所羅門",
+  "lastQuestId": 1000822,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 108,
+      "type": "bgm",
+      "priority": 0,
+      "overwriteId": 130,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 1000820,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 108,
+      "type": "bgm",
+      "priority": 1,
+      "overwriteId": 132,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 1000821,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 108,
+      "type": "parentWar",
+      "priority": 1,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 108,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 11000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 3000008,
+      "value": 0,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    },
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "event"
+    }
+  ],
+  "maps": [
+    {
+      "id": 108,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000108/img_questmap_000108.png",
+      "mapImageW": 2048,
+      "mapImageH": 2048,
+      "mapGimmicks": [
+        {
+          "id": 10801,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010801.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -50,
+          "scale": 1000,
+          "dispCondType": "questClear",
+          "dispTargetId": 0,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000818,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10802,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010802.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -40,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000818,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000820,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10803,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010803.png",
+          "x": 1024,
+          "y": 717,
+          "depthOffset": -30,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000820,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000821,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10804,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010804.png",
+          "x": 600,
+          "y": 1443,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000802,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000804,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10805,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010804.png",
+          "x": 1527,
+          "y": 1417,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000802,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000806,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10806,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010804.png",
+          "x": 360,
+          "y": 1088,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000802,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000808,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10807,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010804.png",
+          "x": 1713,
+          "y": 1086,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000802,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000810,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10808,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010804.png",
+          "x": 609,
+          "y": 754,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000802,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000812,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10809,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010804.png",
+          "x": 1484,
+          "y": 731,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000802,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000814,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10810,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010804.png",
+          "x": 1024,
+          "y": 661,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000817,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000816,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10811,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010811.png",
+          "x": 1024,
+          "y": 1024,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "svtGet",
+          "dispTargetId": 800383,
+          "dispTargetValue": 4,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000818,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10812,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010812.png",
+          "x": 997,
+          "y": 1024,
+          "depthOffset": -10,
+          "scale": 1000,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000818,
+          "dispTargetValue": 1,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000821,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        },
+        {
+          "id": 10899,
+          "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/gimmick_010899.png",
+          "x": 0,
+          "y": 0,
+          "depthOffset": 100,
+          "scale": 1,
+          "dispCondType": "itemGet",
+          "dispTargetId": 1000820,
+          "dispTargetValue": 0,
+          "dispCondType2": "useItemEternity",
+          "dispTargetId2": 1000821,
+          "dispTargetValue2": 0,
+          "actionAnimTime": -1,
+          "actionEffectId": 0,
+          "startedAt": 946656000,
+          "endedAt": 2145888000
+        }
+      ],
+      "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_13.png",
+      "bgm": {
+        "id": 114,
+        "name": "冠位時間神殿：\n所羅門",
+        "originalName": "冠位時間神殿：\n所羅門",
+        "fileName": "BGM_MAP_20",
+        "notReleased": false,
+        "audioAsset": "https://static.atlasacademy.io/TW/Audio/Bgm/BGM_MAP_20/BGM_MAP_20.mp3"
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 10801,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "儀式原始聖門",
+      "originalName": "儀式原始聖門",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010801.png",
+      "x": 1028.0,
+      "y": 1513.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 46,
+      "questOfsY": -115,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000801,
+          "name": "獸之宙域",
+          "originalName": "獸之宙域",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 23,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "80",
+          "spotId": 10801,
+          "spotName": "儀式原始聖門",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000722,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080110.txt"
+                },
+                {
+                  "scriptId": "0100080111",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899877,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10802,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅰ之座",
+      "originalName": "Ⅰ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010802.png",
+      "x": 1028.0,
+      "y": 1513.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -14,
+      "questOfsX": 43,
+      "questOfsY": -96,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000802,
+          "name": "Ⅰ／熔礦爐納貝流士",
+          "originalName": "Ⅰ／熔礦爐納貝流士",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 24,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "82",
+          "spotId": 10802,
+          "spotName": "Ⅰ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000801,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            4
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080210.txt"
+                }
+              ]
+            },
+            {
+              "phase": 4,
+              "scripts": [
+                {
+                  "scriptId": "0100080240",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080240.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899876,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10803,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅱ之座",
+      "originalName": "Ⅱ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010803.png",
+      "x": 600.0,
+      "y": 1443.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -11,
+      "questOfsX": 42,
+      "questOfsY": -105,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000803,
+          "name": "Ⅱ／情報室佛勞洛斯",
+          "originalName": "Ⅱ／情報室佛勞洛斯",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10803,
+          "spotName": "Ⅱ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000802,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080310.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899875,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000804,
+          "name": "情報室，終結",
+          "originalName": "情報室，終結",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10803,
+          "spotName": "Ⅱ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000830,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080410.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899874,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000830,
+          "name": "情報室佛勞洛斯 最終戰",
+          "originalName": "情報室佛勞洛斯 最終戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidLastDay",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "85",
+          "spotId": 10803,
+          "spotName": "Ⅱ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 30,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310800,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310800,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310800,
+              "type": "item",
+              "objectId": 4001,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310800,
+              "type": "item",
+              "objectId": 6506,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000803,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidDead",
+              "targetId": 80038,
+              "value": 1,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899877,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000850,
+          "name": "情報室佛勞洛斯 壓制戰",
+          "originalName": "情報室佛勞洛斯 壓制戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidConnection"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "85",
+          "spotId": 10803,
+          "spotName": "Ⅱ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 50,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000803,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidAlive",
+              "targetId": 80038,
+              "value": 1,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899877,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 1517896799
+        }
+      ]
+    },
+    {
+      "id": 10804,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅲ之座",
+      "originalName": "Ⅲ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010804.png",
+      "x": 1527.0,
+      "y": 1417.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -11,
+      "questOfsX": 43,
+      "questOfsY": -105,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000805,
+          "name": "Ⅲ／觀測所佛鈕司",
+          "originalName": "Ⅲ／觀測所佛鈕司",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10804,
+          "spotName": "Ⅲ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000802,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080510.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899873,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000806,
+          "name": "觀測所，閉館",
+          "originalName": "觀測所，閉館",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10804,
+          "spotName": "Ⅲ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000831,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080610.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899872,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000831,
+          "name": "觀測所佛鈕司 最終戰",
+          "originalName": "觀測所佛鈕司 最終戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidLastDay",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "85",
+          "spotId": 10804,
+          "spotName": "Ⅲ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 31,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310801,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310801,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310801,
+              "type": "item",
+              "objectId": 4001,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310801,
+              "type": "item",
+              "objectId": 6501,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000805,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidDead",
+              "targetId": 80038,
+              "value": 2,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899876,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000851,
+          "name": "觀測所佛鈕司 壓制戰",
+          "originalName": "觀測所佛鈕司 壓制戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidConnection"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "85",
+          "spotId": 10804,
+          "spotName": "Ⅲ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 51,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000805,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidAlive",
+              "targetId": 80038,
+              "value": 2,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899876,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 1517896799
+        }
+      ]
+    },
+    {
+      "id": 10805,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅳ之座",
+      "originalName": "Ⅳ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010805.png",
+      "x": 360.0,
+      "y": 1088.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -10,
+      "questOfsX": 41,
+      "questOfsY": -105,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000807,
+          "name": "Ⅳ／管制塔巴巴妥司",
+          "originalName": "Ⅳ／管制塔巴巴妥司",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10805,
+          "spotName": "Ⅳ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000802,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080710.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899871,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000808,
+          "name": "管制塔，瓦解",
+          "originalName": "管制塔，瓦解",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10805,
+          "spotName": "Ⅳ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000832,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080810.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899870,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000832,
+          "name": "管制塔巴巴妥司 最終戰",
+          "originalName": "管制塔巴巴妥司 最終戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidLastDay",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "85",
+          "spotId": 10805,
+          "spotName": "Ⅳ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 32,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310802,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310802,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310802,
+              "type": "item",
+              "objectId": 4001,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310802,
+              "type": "item",
+              "objectId": 6517,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000807,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidDead",
+              "targetId": 80038,
+              "value": 3,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899875,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000852,
+          "name": "管制塔巴巴妥司 壓制戰",
+          "originalName": "管制塔巴巴妥司 壓制戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidConnection"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "85",
+          "spotId": 10805,
+          "spotName": "Ⅳ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 52,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000807,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidAlive",
+              "targetId": 80038,
+              "value": 3,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899875,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 1517896799
+        }
+      ]
+    },
+    {
+      "id": 10806,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅴ之座",
+      "originalName": "Ⅴ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010806.png",
+      "x": 1713.0,
+      "y": 1086.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -13,
+      "questOfsX": 43,
+      "questOfsY": -94,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000809,
+          "name": "Ⅴ／兵裝舍哈帕斯",
+          "originalName": "Ⅴ／兵裝舍哈帕斯",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10806,
+          "spotName": "Ⅴ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000802,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100080910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100080910.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899869,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000810,
+          "name": "兵裝舍，停止",
+          "originalName": "兵裝舍，停止",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10806,
+          "spotName": "Ⅴ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 6,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000833,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081010.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899868,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000833,
+          "name": "兵裝舍哈帕斯 最終戰",
+          "originalName": "兵裝舍哈帕斯 最終戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidLastDay",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "85",
+          "spotId": 10806,
+          "spotName": "Ⅴ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 33,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310803,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310803,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310803,
+              "type": "item",
+              "objectId": 4001,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310803,
+              "type": "item",
+              "objectId": 6518,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000809,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidDead",
+              "targetId": 80038,
+              "value": 4,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899874,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000853,
+          "name": "兵裝舍哈帕斯 壓制戰",
+          "originalName": "兵裝舍哈帕斯 壓制戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidConnection"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "85",
+          "spotId": 10806,
+          "spotName": "Ⅴ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 53,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000809,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidAlive",
+              "targetId": 80038,
+              "value": 4,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899874,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 1517896799
+        }
+      ]
+    },
+    {
+      "id": 10807,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅵ之座",
+      "originalName": "Ⅵ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010807.png",
+      "x": 609.0,
+      "y": 754.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -15,
+      "questOfsX": 55,
+      "questOfsY": -98,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000811,
+          "name": "Ⅵ／窺覺星亞蒙",
+          "originalName": "Ⅵ／窺覺星亞蒙",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10807,
+          "spotName": "Ⅵ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000802,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081110.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899867,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000812,
+          "name": "窺覺星，熄燈",
+          "originalName": "窺覺星，熄燈",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10807,
+          "spotName": "Ⅵ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 7,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000834,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081210",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081210.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899866,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000834,
+          "name": "窺覺星亞蒙 最終戰",
+          "originalName": "窺覺星亞蒙 最終戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidLastDay",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "85",
+          "spotId": 10807,
+          "spotName": "Ⅵ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 34,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310804,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310804,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310804,
+              "type": "item",
+              "objectId": 4001,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310804,
+              "type": "item",
+              "objectId": 6525,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000811,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidDead",
+              "targetId": 80038,
+              "value": 5,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899873,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000854,
+          "name": "窺覺星亞蒙 壓制戰",
+          "originalName": "窺覺星亞蒙 壓制戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidConnection"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "85",
+          "spotId": 10807,
+          "spotName": "Ⅵ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 54,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000811,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidAlive",
+              "targetId": 80038,
+              "value": 5,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899873,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 1517896799
+        }
+      ]
+    },
+    {
+      "id": 10808,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅶ之座",
+      "originalName": "Ⅶ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010808.png",
+      "x": 1484.0,
+      "y": 731.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -1,
+      "questOfsX": 52,
+      "questOfsY": -98,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000813,
+          "name": "Ⅶ／生命院斯伯奈克",
+          "originalName": "Ⅶ／生命院斯伯奈克",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10808,
+          "spotName": "Ⅶ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000802,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081310",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081310.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899865,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000814,
+          "name": "生命院，臨終",
+          "originalName": "生命院，臨終",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10808,
+          "spotName": "Ⅶ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 8,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000835,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081410",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081410.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899864,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000835,
+          "name": "生命院斯伯奈克 最終戰",
+          "originalName": "生命院斯伯奈克 最終戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidLastDay",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "85",
+          "spotId": 10808,
+          "spotName": "Ⅶ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 35,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310805,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310805,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310805,
+              "type": "item",
+              "objectId": 4001,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310805,
+              "type": "item",
+              "objectId": 6529,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000813,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidDead",
+              "targetId": 80038,
+              "value": 6,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899872,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000855,
+          "name": "生命院斯伯奈克 壓制戰",
+          "originalName": "生命院斯伯奈克 壓制戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidConnection"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "85",
+          "spotId": 10808,
+          "spotName": "Ⅶ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 55,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000813,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidAlive",
+              "targetId": 80038,
+              "value": 6,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899872,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 1517896799
+        }
+      ]
+    },
+    {
+      "id": 10809,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅹ之座",
+      "originalName": "Ⅹ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010809.png",
+      "x": 1024.0,
+      "y": 661.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 46,
+      "questOfsY": -99,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000815,
+          "name": "Ｘ／廢棄孔安杜馬利烏士",
+          "originalName": "Ｘ／廢棄孔安杜馬利烏士",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10809,
+          "spotName": "Ⅹ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questGroupClear",
+              "targetId": 800383,
+              "value": 4,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081510",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081510.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899863,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000816,
+          "name": "廢棄孔，封閉",
+          "originalName": "廢棄孔，封閉",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10809,
+          "spotName": "Ⅹ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 9,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000836,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081610",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081610.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899862,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000836,
+          "name": "廢棄孔安杜馬利烏士 最終戰",
+          "originalName": "廢棄孔安杜馬利烏士 最終戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidLastDay",
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "85",
+          "spotId": 10809,
+          "spotName": "Ⅹ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 36,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 310806,
+              "type": "servant",
+              "objectId": 9770500,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310806,
+              "type": "item",
+              "objectId": 46,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            },
+            {
+              "id": 310806,
+              "type": "item",
+              "objectId": 4001,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 310806,
+              "type": "item",
+              "objectId": 6505,
+              "priority": 0,
+              "num": 5,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000815,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidDead",
+              "targetId": 80038,
+              "value": 7,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899871,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000856,
+          "name": "廢棄孔安杜馬利烏士 壓制戰",
+          "originalName": "廢棄孔安杜馬利烏士 壓制戰",
+          "type": "event",
+          "flags": [
+            "raid",
+            "raidConnection"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "85",
+          "spotId": 10809,
+          "spotName": "Ⅹ之座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 56,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000815,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "raidAlive",
+              "targetId": 80038,
+              "value": 7,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 899871,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 1517896799
+        }
+      ]
+    },
+    {
+      "id": 10810,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "玉座",
+      "originalName": "玉座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010810.png",
+      "x": 1028.0,
+      "y": 977.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 2,
+      "questOfsX": 48,
+      "questOfsY": -110,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000819,
+          "name": "未來",
+          "originalName": "未來",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90",
+          "spotId": 10810,
+          "spotName": "玉座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 20058,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000818,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081910",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081910.txt"
+                },
+                {
+                  "scriptId": "0100081911",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081911.txt"
+                },
+                {
+                  "scriptId": "0100081913",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081913.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100081920",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081920.txt"
+                },
+                {
+                  "scriptId": "0100081922",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081922.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899858,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000820,
+          "name": "特異點，崩潰",
+          "originalName": "特異點，崩潰",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10810,
+          "spotName": "玉座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 13,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000825,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100082010",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100082010.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899857,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000825,
+          "name": "未來",
+          "originalName": "未來",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90",
+          "spotId": 10810,
+          "spotName": "玉座",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 12,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 20058,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000819,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": -1,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10811,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "儀式原始聖門",
+      "originalName": "儀式原始聖門",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010811.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 49,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10812,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "？？？",
+      "originalName": "？？？",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010812.png",
+      "x": 1024.0,
+      "y": 1024.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -1,
+      "questOfsX": 46,
+      "questOfsY": -107,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000822,
+          "name": "回歸",
+          "originalName": "回歸",
+          "type": "main",
+          "flags": [
+            "noBattle",
+            "noDisplayMissionNotify"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10812,
+          "spotName": "？？？",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 15,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000821,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100082211",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100082211.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899855,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10813,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "玉座",
+      "originalName": "玉座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010813.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 49,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10814,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅰ之座",
+      "originalName": "Ⅰ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010802.png",
+      "x": 1028.0,
+      "y": 1513.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -14,
+      "questOfsX": 43,
+      "questOfsY": -96,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10815,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅱ之座",
+      "originalName": "Ⅱ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010803.png",
+      "x": 600.0,
+      "y": 1443.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -11,
+      "questOfsX": 42,
+      "questOfsY": -105,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10816,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅲ之座",
+      "originalName": "Ⅲ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010804.png",
+      "x": 1527.0,
+      "y": 1417.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -11,
+      "questOfsX": 43,
+      "questOfsY": -105,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10817,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅳ之座",
+      "originalName": "Ⅳ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010805.png",
+      "x": 360.0,
+      "y": 1088.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -10,
+      "questOfsX": 41,
+      "questOfsY": -105,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10818,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅴ之座",
+      "originalName": "Ⅴ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010806.png",
+      "x": 1713.0,
+      "y": 1086.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -13,
+      "questOfsX": 43,
+      "questOfsY": -94,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10819,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅵ之座",
+      "originalName": "Ⅵ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010807.png",
+      "x": 609.0,
+      "y": 754.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -15,
+      "questOfsX": 55,
+      "questOfsY": -98,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10820,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅶ之座",
+      "originalName": "Ⅶ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010808.png",
+      "x": 1484.0,
+      "y": 731.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -1,
+      "questOfsX": 52,
+      "questOfsY": -98,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10821,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "Ⅹ之座",
+      "originalName": "Ⅹ之座",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010809.png",
+      "x": 1024.0,
+      "y": 661.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -3,
+      "questOfsX": 46,
+      "questOfsY": -99,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10822,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "儀式原始聖門",
+      "originalName": "儀式原始聖門",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010801.png",
+      "x": 1028.0,
+      "y": 1513.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": -6,
+      "questOfsX": 46,
+      "questOfsY": -115,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000818,
+          "name": "光帶玉座",
+          "originalName": "光帶玉座",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90",
+          "spotId": 10822,
+          "spotName": "儀式原始聖門",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 11,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000802,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "questGroupClear",
+              "targetId": 800384,
+              "value": 7,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1,
+            2
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081810",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081810.txt"
+                }
+              ]
+            },
+            {
+              "phase": 2,
+              "scripts": [
+                {
+                  "scriptId": "0100081820",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081820.txt"
+                },
+                {
+                  "scriptId": "0100081821",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081821.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899859,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 1000821,
+          "name": "Fate/Grand Order",
+          "originalName": "Fate/Grand Order",
+          "type": "main",
+          "flags": [
+            "enableFollowQuest"
+          ],
+          "consumeType": "ap",
+          "consume": 30,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90",
+          "spotId": 10822,
+          "spotName": "儀式原始聖門",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 14,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 1000820,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100082110",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100082110.txt"
+                },
+                {
+                  "scriptId": "0100082111",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100082111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899856,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 10823,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "儀式原始聖門",
+      "originalName": "儀式原始聖門",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010823.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 49,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10898,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "dummy點",
+      "originalName": "dummy點",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010898.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 49,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 10899,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 108,
+      "name": "dummy點",
+      "originalName": "dummy點",
+      "image": "https://static.atlasacademy.io/TW/Terminal/QuestMap/Capter0108/QMap_Cap0108_Atlas/spot_010899.png",
+      "x": 999999.0,
+      "y": 999999.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 49,
+      "questOfsY": -81,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 1000817,
+          "name": "身在玉座",
+          "originalName": "身在玉座",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 10899,
+          "spotName": "dummy點",
+          "warId": 108,
+          "warLongName": "終局特異點\n冠位時間神殿 所羅門",
+          "chapterId": 8,
+          "chapterSubId": 10,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questGroupClear",
+              "targetId": 800383,
+              "value": 4,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0100081710",
+                  "script": "https://static.atlasacademy.io/TW/Script/01/0100081710.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 899861,
+          "noticeAt": 946656000,
+          "openedAt": 946656000,
+          "closedAt": 2145888000
+        }
+      ]
+    }
+  ],
+  "spotRoads": [],
+  "questSelections": []
+}

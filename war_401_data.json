@@ -1,0 +1,1549 @@
+{
+  "id": 401,
+  "coordinates": [
+    [],
+    []
+  ],
+  "age": "-",
+  "name": "-",
+  "originalName": "-",
+  "longName": "Ordeal Call",
+  "originalLongName": "Ordeal Call",
+  "flags": [
+    "folderSortPrior",
+    "mainScenario",
+    "noClearMarkWithClear",
+    "noClearMarkWithComplete",
+    "dispFirstQuest"
+  ],
+  "banner": "https://static.atlasacademy.io/TW/Banner/questboard_cap401.png",
+  "priority": 401,
+  "parentWarId": 0,
+  "materialParentWarId": 0,
+  "parentBlankEarthSpotId": 0,
+  "emptyMessage": "沒有任務",
+  "bgm": {
+    "id": 0,
+    "name": "",
+    "originalName": "",
+    "fileName": "",
+    "notReleased": true
+  },
+  "scriptId": "0",
+  "script": "https://static.atlasacademy.io/TW/Script/0/0.txt",
+  "startType": "quest",
+  "targetId": 4000100,
+  "eventId": 0,
+  "eventName": "",
+  "lastQuestId": 4000100,
+  "releaseConditions": [],
+  "warAdds": [
+    {
+      "warId": 401,
+      "type": "warForceHide",
+      "priority": 1,
+      "overwriteId": 0,
+      "overwriteStr": "",
+      "condType": "notQuestClearPhase",
+      "targetId": 4000000,
+      "value": 1,
+      "startedAt": 946656000,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 401,
+      "type": "materialParentWar",
+      "priority": 2,
+      "overwriteId": 13000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 4000000,
+      "value": 0,
+      "startedAt": 1741705200,
+      "endedAt": 2145888000
+    },
+    {
+      "warId": 401,
+      "type": "materialParentWar",
+      "priority": 3,
+      "overwriteId": 14000,
+      "overwriteStr": "",
+      "condType": "questClear",
+      "targetId": 4000000,
+      "value": 0,
+      "startedAt": 1742446800,
+      "endedAt": 2145888000
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "questAfterClear": "close",
+      "questType": "main"
+    }
+  ],
+  "maps": [
+    {
+      "id": 401,
+      "mapImage": "https://static.atlasacademy.io/TW/Terminal/MapImgs/img_questmap_000401/img_questmap_000401.png",
+      "mapImageW": 0,
+      "mapImageH": 0,
+      "mapGimmicks": [],
+      "headerImage": "https://static.atlasacademy.io/TW/Banner/img_title_header_33.png",
+      "bgm": {
+        "id": 0,
+        "name": "",
+        "originalName": "",
+        "fileName": "",
+        "notReleased": true
+      }
+    }
+  ],
+  "spots": [
+    {
+      "id": 40101,
+      "blankEarth": false,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "",
+      "originalName": "",
+      "x": 0.0,
+      "y": 0.0,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 4000100,
+          "name": "Ordeal Call　０",
+          "originalName": "Ordeal Call　０",
+          "type": "main",
+          "flags": [
+            "noBattle"
+          ],
+          "consumeType": "ap",
+          "consume": 0,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "1",
+          "spotId": 40101,
+          "spotName": "",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 0,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 461,
+              "type": "item",
+              "objectId": 49,
+              "priority": 0,
+              "num": 3,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000000,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [
+            1
+          ],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "0400010110",
+                  "script": "https://static.atlasacademy.io/TW/Script/04/0400010110.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 4000100,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040101,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "俄羅斯區域",
+      "originalName": "俄羅斯區域",
+      "x": 56.36,
+      "y": 37.797,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93040101,
+          "name": "凍土的試煉",
+          "originalName": "凍土的試煉",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040101,
+          "spotName": "俄羅斯區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000099,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93040150,
+          "name": "【高難度】極寒的強者",
+          "originalName": "【高難度】極寒的強者",
+          "type": "free",
+          "flags": [
+            "enemyImmediateAppear"
+          ],
+          "consumeType": "ap",
+          "consume": 5,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90+",
+          "spotId": 1040101,
+          "spotName": "俄羅斯區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 50,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 100,
+              "giftAdds": []
+            },
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 51,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000094,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040102,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "東歐區域",
+      "originalName": "東歐區域",
+      "x": 49.953,
+      "y": 23.677,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93040102,
+          "name": "噩夢的南瓜",
+          "originalName": "噩夢的南瓜",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040102,
+          "spotName": "東歐區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000098,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93040151,
+          "name": "【高難度】鮮血的殘滓",
+          "originalName": "【高難度】鮮血的殘滓",
+          "type": "free",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 5,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90+",
+          "spotId": 1040102,
+          "spotName": "東歐區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 51,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 100,
+              "giftAdds": []
+            },
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 51,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000093,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040103,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "夏威夷區域",
+      "originalName": "夏威夷區域",
+      "x": 21.319,
+      "y": -157.922,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93040103,
+          "name": "盛夏的休假",
+          "originalName": "盛夏的休假",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040103,
+          "spotName": "夏威夷區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 3,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000097,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040104,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "美洲西部區域",
+      "originalName": "美洲西部區域",
+      "x": 36.006,
+      "y": -112.733,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93040104,
+          "name": "荒野的歡樂",
+          "originalName": "荒野的歡樂",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040104,
+          "spotName": "美洲西部區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 4,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000096,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040105,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "大洋洲北部區域",
+      "originalName": "大洋洲北部區域",
+      "x": -16.928,
+      "y": 155.752,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 93040105,
+          "name": "大堡礁之卵",
+          "originalName": "大堡礁之卵",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040105,
+          "spotName": "大洋洲北部區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 5,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000095,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 93040152,
+          "name": "【高難度】海底的童話",
+          "originalName": "【高難度】海底的童話",
+          "type": "free",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 5,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90+",
+          "spotId": 1040105,
+          "spotName": "大洋洲北部區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 401,
+          "chapterSubId": 52,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 100,
+              "giftAdds": []
+            },
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 51,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 4000092,
+          "noticeAt": 1741705200,
+          "openedAt": 1741705200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040106,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "北大西洋區域",
+      "originalName": "北大西洋區域",
+      "x": 41.656,
+      "y": -38.441,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 94086401,
+          "name": "奧爾嘉瑪麗任務_１",
+          "originalName": "奧爾嘉瑪麗任務_１",
+          "type": "free",
+          "flags": [
+            "noContinue",
+            "noDisplayRemain",
+            "forceDisplayEnemyInfo"
+          ],
+          "consumeType": "ap",
+          "consume": 5,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90★",
+          "spotId": 1040106,
+          "spotName": "北大西洋區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 0,
+          "chapterSubId": 0,
+          "chapterSubStr": "",
+          "giftIcon": "https://static.atlasacademy.io/TW/Items/3.png",
+          "gifts": [
+            {
+              "id": 94086401,
+              "type": "item",
+              "objectId": 53,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 94086401,
+              "type": "item",
+              "objectId": 200,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            },
+            {
+              "id": 94086401,
+              "type": "item",
+              "objectId": 7999,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [
+            {
+              "phase": 1,
+              "scripts": [
+                {
+                  "scriptId": "9408640110",
+                  "script": "https://static.atlasacademy.io/TW/Script/94/9408/9408640110.txt"
+                },
+                {
+                  "scriptId": "9408640111",
+                  "script": "https://static.atlasacademy.io/TW/Script/94/9408/9408640111.txt"
+                }
+              ]
+            }
+          ],
+          "priority": 907299,
+          "noticeAt": 1750741200,
+          "openedAt": 1750741200,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 94086402,
+          "name": "【限時】奧爾嘉瑪麗任務_１．重演",
+          "originalName": "【限時】奧爾嘉瑪麗任務_１．重演",
+          "type": "free",
+          "flags": [
+            "noContinue",
+            "notRetrievable",
+            "forceToNoDrop",
+            "forceDisplayEnemyInfo"
+          ],
+          "consumeType": "ap",
+          "consume": 5,
+          "consumeItem": [],
+          "afterClear": "repeatLast",
+          "recommendLv": "90★",
+          "spotId": 1040106,
+          "spotName": "北大西洋區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 0,
+          "chapterSubId": 0,
+          "chapterSubStr": "",
+          "gifts": [],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 94086401,
+              "value": 0,
+              "closedMessage": ""
+            },
+            {
+              "type": "date",
+              "targetId": 0,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 907298,
+          "noticeAt": 1750741200,
+          "openedAt": 1750741200,
+          "closedAt": 1752209999
+        }
+      ]
+    },
+    {
+      "id": 1040107,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "北歐區域",
+      "originalName": "北歐區域",
+      "x": 59.91,
+      "y": 10.758,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 94086601,
+          "name": "殘留的神話",
+          "originalName": "殘留的神話",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040107,
+          "spotName": "北歐區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 866,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 807399,
+          "noticeAt": 1750741200,
+          "openedAt": 1750741200,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 94086650,
+          "name": "【高難度】傳說的源流",
+          "originalName": "【高難度】傳說的源流",
+          "type": "free",
+          "flags": [
+            "enemyImmediateAppear"
+          ],
+          "consumeType": "ap",
+          "consume": 5,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90+",
+          "spotId": 1040107,
+          "spotName": "北歐區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 866,
+          "chapterSubId": 50,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 100,
+              "giftAdds": []
+            },
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 51,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 707499,
+          "noticeAt": 1750741200,
+          "openedAt": 1750741200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040108,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "加勒比海區域",
+      "originalName": "加勒比海區域",
+      "x": 15.701,
+      "y": -74.843,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 94086602,
+          "name": "高貴的海盜",
+          "originalName": "高貴的海盜",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040108,
+          "spotName": "加勒比海區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 866,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 807399,
+          "noticeAt": 1750741200,
+          "openedAt": 1750741200,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040185,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "美洲南部區域",
+      "originalName": "美洲南部區域",
+      "x": 32.334,
+      "y": -90.896,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 94089602,
+          "name": "復甦的遠古浪漫",
+          "originalName": "復甦的遠古浪漫",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040185,
+          "spotName": "美洲南部區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 896,
+          "chapterSubId": 2,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 807398,
+          "noticeAt": 1752555600,
+          "openedAt": 1752555600,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040193,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "東亞區域",
+      "originalName": "東亞區域",
+      "x": 32.037,
+      "y": 109.54,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": [
+        {
+          "id": 94089601,
+          "name": "舉世之飛將軍",
+          "originalName": "舉世之飛將軍",
+          "type": "free",
+          "flags": [
+            "displayLoopmark"
+          ],
+          "consumeType": "apAndItem",
+          "consume": 40,
+          "consumeItem": [
+            {
+              "item": {
+                "id": 49,
+                "name": "Storm Pod",
+                "originalName": "Storm Pod",
+                "type": "stormpod",
+                "uses": [],
+                "detail": "【執行任務道具】\n在Storm Border使用的能量儲存罐。\n在探索白紙化地球中必不可少。 ",
+                "individuality": [],
+                "icon": "https://static.atlasacademy.io/TW/Items/49.png",
+                "background": "silver",
+                "value": 0,
+                "eventId": 0,
+                "eventGroupId": 0,
+                "priority": 14,
+                "dropPriority": 9004,
+                "startedAt": 946656000,
+                "endedAt": 2145888000,
+                "itemSelects": []
+              },
+              "amount": 1
+            }
+          ],
+          "afterClear": "repeatLast",
+          "recommendLv": "90++",
+          "spotId": 1040193,
+          "spotName": "東亞區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 896,
+          "chapterSubId": 1,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 478,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 10,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 807399,
+          "noticeAt": 1752555600,
+          "openedAt": 1752555600,
+          "closedAt": 2145888000
+        },
+        {
+          "id": 94089650,
+          "name": "【高難度】太歲頭上動土",
+          "originalName": "【高難度】太歲頭上動土",
+          "type": "free",
+          "flags": [],
+          "consumeType": "ap",
+          "consume": 5,
+          "consumeItem": [],
+          "afterClear": "close",
+          "recommendLv": "90+",
+          "spotId": 1040193,
+          "spotName": "東亞區域",
+          "warId": 401,
+          "warLongName": "Ordeal Call",
+          "chapterId": 896,
+          "chapterSubId": 50,
+          "chapterSubStr": "",
+          "gifts": [
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 50,
+              "priority": 0,
+              "num": 100,
+              "giftAdds": []
+            },
+            {
+              "id": 321060,
+              "type": "item",
+              "objectId": 51,
+              "priority": 0,
+              "num": 1,
+              "giftAdds": []
+            }
+          ],
+          "releaseConditions": [
+            {
+              "type": "questClear",
+              "targetId": 4000100,
+              "value": 0,
+              "closedMessage": ""
+            }
+          ],
+          "releaseOverwrites": [],
+          "presents": [],
+          "phases": [
+            1
+          ],
+          "phasesWithEnemies": [],
+          "phasesNoBattle": [],
+          "phaseScripts": [],
+          "priority": 707499,
+          "noticeAt": 1752555600,
+          "openedAt": 1752555600,
+          "closedAt": 2145888000
+        }
+      ]
+    },
+    {
+      "id": 1040201,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "埃及區域",
+      "originalName": "埃及區域",
+      "x": 28.539,
+      "y": 33.975,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    },
+    {
+      "id": 1040301,
+      "blankEarth": true,
+      "joinSpotIds": [],
+      "mapId": 401,
+      "name": "日本區域",
+      "originalName": "日本區域",
+      "x": 35.69,
+      "y": 139.692,
+      "imageOfsX": 0,
+      "imageOfsY": 0,
+      "nameOfsX": 0,
+      "nameOfsY": 0,
+      "questOfsX": 0,
+      "questOfsY": 0,
+      "nextOfsX": 0,
+      "nextOfsY": 0,
+      "closedMessage": "",
+      "spotAdds": [],
+      "quests": []
+    }
+  ],
+  "spotRoads": [],
+  "questSelections": []
+}

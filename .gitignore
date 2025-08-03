@@ -53,3 +53,21 @@ config.json
 *.log
 cache/
 temp/
+
+# FGO Atlas Academy 專案特定檔案
+# 測試檔案
+test_*.py
+api_test_*.json
+script_*.json
+raw_script_*.txt
+openapi_spec.json
+
+# 暫存的HTML檔案
+site_raw_html/
+atlas_test_html/
+
+# Jupyter Notebook 檢查點
+.ipynb_checkpoints/
+
+# 下載的劇情檔案（可選：如果不想同步所有劇情檔案到 git）
+# story/
